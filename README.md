@@ -2,9 +2,10 @@
 
 Repo degli esercizi tratti dalle tracce d'Esame di Programmazione
 
-## Getting Started
+## Perchè
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+L' unico modo per avere sempre con te gli esercizi di programmazione con tanto di svolgimento.
+Non sarò il programmatore più bravo al mondo, ma in fondo me la cavo, dai!
 
 ### Prerequisiti
 
