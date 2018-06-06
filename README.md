@@ -5,7 +5,7 @@ Repo degli esercizi tratti dalle tracce d'Esame di Programmazione
 ## Perchè
 
 L' unico modo per avere sempre con te gli esercizi di programmazione con tanto di svolgimento.
-Non sarò il programmatore più bravo al mondo, ma in fondo me la cavo, dai!
+Non sarò il programmatore più bravo al mondo... ma in fondo me la cavo, dai!
 
 ### Prerequisiti
 
