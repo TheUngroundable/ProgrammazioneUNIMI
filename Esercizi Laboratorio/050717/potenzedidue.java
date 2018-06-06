@@ -7,9 +7,11 @@ public class potenzedidue{
 	public static void main(String[] args) {
 		//Scanner normalissimo
 		Scanner in = new Scanner(System.in);
-		//
+		//Diamo per scontato che il numero non è potenza di 2
 		boolean success = false;
+		//Contatore per il numero di input che sono potenze di 2
 		int counter = 0;
+		//Flag per vedere se è pieno l' array degli input
 		boolean empty = false;
 
 		//Se non sono stati passati numeri per riga di comando, ferma tutto
