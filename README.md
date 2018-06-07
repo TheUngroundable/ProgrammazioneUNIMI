@@ -22,7 +22,7 @@ javac nomefile.java
 ### Per Eseguire il Codice:
 
 ```
-java nomefile.java args[0], args[1], ...
+java nomefile args[0], args[1], ...
 ```
 
 
