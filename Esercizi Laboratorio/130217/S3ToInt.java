@@ -6,7 +6,6 @@ import java.math.*;
 
 public class S3ToInt{
 
-
 	public static void main(String[] args) {
 		
 		Scanner in = new Scanner(System.in);
