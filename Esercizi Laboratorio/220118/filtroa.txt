@@ -1,0 +1,4 @@
+tutteminuscole
+TUTTEMAIUSCOLE
+minuscolecon1numero
+12345 pippo=pluto

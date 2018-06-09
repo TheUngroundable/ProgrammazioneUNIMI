@@ -1,0 +1,5 @@
+TutteLettere
+12345
+LettereCon1Numero
+12.50 2*5 (27+52)
+3+5=8
