@@ -2,14 +2,6 @@
 
 Repo degli esercizi tratti dalle tracce d'Esame di Programmazione
 
-## Indice
-
-* [Perchè](#perchè)
-   * [Prerequisiti](#prerequisiti)
-* [Struttura](#struttura)
-   * [Le Cartelle](#le%20cartelle)
-* [Perchè](#perchè)
-* [Perchè](#perchè)
 
 
 
@@ -34,9 +26,23 @@ Sono presenti varie cartelle tra cui:
 * [Tracce Scritto] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
 
 # Guida Galattica per Programmatori v2.0
+
+## Indice
+
+* [Esame di Laboratorio](#esame-di-laboratorio)
+   * [Lettura e Manipolazione dei Dati](#struttura-e-manipolazione-dei-dati)
+      * [Per Leggere da Standard Input](#per-leggere-da-standard-input)
+      * [Per Leggere da File](#per-leggere-da-file)
+      * [Manipolare lo Scanner](#manipolare-lo-scanner)
+         * [Manipolazione di un testo di lunghezza NON NOTA](#manipolazione-di-un-testo-di-lunghezza-non-nota)
+
+
+* [Perchè](#perchè)
+
+
 ## Esame di Laboratorio
 
-### *Struttura e Manipolazione Dati*
+### *Lettura e Manipolazione Dati*
 
 Le librerie da importare sono:
 * import java.util.*;
@@ -63,7 +69,7 @@ Scanner file = new Scanner(new FileReader("./testo.txt"));
 Dove *./testo.txt* si riferisce al percorso relativo (o assoluto) del file **COME STRINGA**
 
 
-#### *Leggere dallo Scanner*
+### *Manipolare lo Scanner*
 Avendo dichiarato correttamente lo Scanner:
 
 * Un Numero Intero: 
