@@ -55,19 +55,29 @@ Dove *./testo.txt* si riferisce al percorso relativo (o assoluto) del file **COM
 #### Leggere dallo Scanner
 Avendo dichiarato correttamente lo Scanner:
 
-* Un Numero Intero: ``` int numero = input.nextInt();
+* Un Numero Intero: 
+```
+int numero = input.nextInt();
 ```
 
-* Un Numero Decimale: ``` floats numeroDecimale = input.nextFloat();
+* Un Numero Decimale: 
+```
+floats numeroDecimale = input.nextFloat();
 ```
 
-* Una Parola (troncata al primo *whitespace*): ``` String parola = input.next();
+* Una Parola (troncata al primo *whitespace*): 
+```
+String parola = input.next();
 ```
 
-* Una Frase: ``` String frase = input.nextLine();
+* Una Frase: 
+```
+String frase = input.nextLine();
 ```
 
-* Un Carattere: ``` char lettera = in.next().charAt(0);
+* Un Carattere: 
+```
+char lettera = in.next().charAt(0);
 ```
 
 
