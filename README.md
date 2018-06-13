@@ -22,7 +22,7 @@ Sono presenti varie cartelle tra cui:
 * [Tracce Laboratorio] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
 * [Tracce Scritto] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
 
-# Guida Pratica di Sopravvivenza
+# Guida Galattica per Programmatori v2.0
 ## Esame di Laboratorio
 
 ### Struttura e Manipolazione Dati
@@ -51,9 +51,32 @@ Scanner file = new Scanner(new FileReader("./testo.txt"));
 
 Dove *./testo.txt* si riferisce al percorso relativo (o assoluto) del file **COME STRINGA**
 
-#### Leggere riga per riga dato un input o un file
 
-Per leggere riga per riga dato un input o un file la soluzione migliore è
+#### Leggere dallo Scanner
+Avendo dichiarato correttamente lo Scanner:
+
+* Un Numero Intero: ``` int numero = input.nextInt();
+```
+
+* Un Numero Decimale: ``` floats numeroDecimale = input.nextFloat();
+```
+
+* Una Parola (troncata al primo *whitespace*): ``` String parola = input.next();
+```
+
+* Una Frase: ``` String frase = input.nextLine();
+```
+
+* Un Carattere: ``` char lettera = in.next().charAt(0);
+```
+
+
+#### Interropmere il flusso di Standard Input
+
+
+
+#### Piccoli Esempi
+> Stampare il numero di righe inserite da standard input
 
 ```
 Scanner input = new Scanner(System.in);
