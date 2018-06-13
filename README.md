@@ -27,12 +27,12 @@ Sono presenti varie cartelle tra cui:
 
 #### Classi fondamentali e metodi
 
-* [Scanner]
-	- [Next()]
-		-[NextLine()]
-* [String]
-* [Character]
-* [Integer] 
+* Scanner
+  - Next()
+    - NextLine()
+* String
+* Character
+* Integer
 
 #### Struttura e Manipolazione Dati
 
