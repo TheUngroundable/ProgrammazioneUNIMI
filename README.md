@@ -25,7 +25,7 @@ Sono presenti varie cartelle tra cui:
 # Guida Galattica per Programmatori v2.0
 ## Esame di Laboratorio
 
-### Struttura e Manipolazione Dati
+### *Struttura e Manipolazione Dati*
 
 Le librerie da importare sono:
 * import java.util.*;
