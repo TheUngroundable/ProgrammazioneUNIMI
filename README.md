@@ -22,8 +22,8 @@ Sono presenti varie cartelle tra cui:
 * [Tracce Laboratorio] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
 * [Tracce Scritto] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
 
-## Guida Pratica di Sopravvivenza
-### Esame di Laboratorio
+# Guida Pratica di Sopravvivenza
+## Esame di Laboratorio
 
 ### Struttura e Manipolazione Dati
 
