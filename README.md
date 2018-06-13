@@ -2,6 +2,9 @@
 
 Repo degli esercizi tratti dalle tracce d'Esame di Programmazione
 
+
+
+
 ## Perchè
 
 L' unico modo per avere sempre con te gli esercizi di programmazione con tanto di svolgimento.
@@ -22,16 +25,30 @@ Sono presenti varie cartelle tra cui:
 * [Tracce Laboratorio] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
 * [Tracce Scritto] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
 
-## Guida Pratica di Sopravvivenza
-### Esame di Laboratorio
+# Guida Galattica per Programmatori v2.0
 
-#### Struttura e Manipolazione Dati
+## Indice
+
+* [Esame di Laboratorio](#esame-di-laboratorio)
+   * [Lettura e Manipolazione dei Dati](#struttura-e-manipolazione-dei-dati)
+      * [Per Leggere da Standard Input](#per-leggere-da-standard-input)
+      * [Per Leggere da File](#per-leggere-da-file)
+      * [Manipolare lo Scanner](#manipolare-lo-scanner)
+         * [Manipolazione di un testo di lunghezza NON NOTA](#manipolazione-di-un-testo-di-lunghezza-non-nota)
+
+
+* [Perchè](#perchè)
+
+
+## Esame di Laboratorio
+
+### *Lettura e Manipolazione Dati*
 
 Le librerie da importare sono:
 * import java.util.*;
 * import java.io.*;
 
-##### Leggere da Standard Input
+#### *Per Leggere da Standard Input*
 
 Se ti viene richiesto di leggere da standard input è necessario un oggetto Scanner così dichiarato
 
@@ -41,26 +58,80 @@ Scanner input = new Scanner(System.in);
 
 Dove *System.in* si riferisce allo standard input, la tastiera
 
-##### Leggere da File
+#### *Per Leggere da File*
 
 Se ti viene invece richiesto di leggere da File è necessario un oggetto Scanner con un oggetto File reader a cui viene passato il path del file
 
 ```
-Scanner file = new Scanner(new FileReader(./testo.txt));
+Scanner file = new Scanner(new FileReader("./testo.txt"));
 ```
 
 Dove *./testo.txt* si riferisce al percorso relativo (o assoluto) del file **COME STRINGA**
 
-##### Leggere riga per riga dato un input o un file
 
-Per leggere riga per riga dato un input o un file la soluzione migliore è
+### *Manipolare lo Scanner*
+Avendo dichiarato correttamente lo Scanner:
+
+* Un Numero Intero: 
+```
+int numero = input.nextInt();
+```
+
+* Un Numero Decimale: 
+```
+float numeroDecimale = input.nextFloat();
+```
+
+* Una Parola (troncata al primo *whitespace*): 
+```
+String parola = input.next();
+```
+
+* Una Frase: 
+```
+String frase = input.nextLine();
+```
+
+* Un Carattere: 
+```
+char lettera = in.next().charAt(0);
+```
+**Questi Metodi sono validi anche per la lettura da FILE**
+
+#### *Manipolazione di un testo di lunghezza NON NOTA*
+
+Per manipolare un testo di lunghezza NON NOTA è necessario usare un ciclo do...while in modo tale che peschi riga per riga fintanto che ci sono righe nel buffer.
+
+Per pescare riga per riga usiamo .nextLine(), per verificare se c'è ancora una riga usiamo .hasNextLine() che ritorna true se è presente ancora una riga nel buffer
+
+Analogamente questo procedimento funziona anche per manipolare parola per parola, ma in questo caso pescheremo le nostre parole con .next() e verificheremo se ci sono ancora parole con .hasNext() nel nostro *while*
+
+
+#### *Interropmere il flusso di Standard Input*
+
+Per interrompere un flusso di Standard Input, **su Windows**, bisogna, su riga vuota, premere CTRL-Z ed Invio
+
+#### *Piccoli Esempi*
+> Dato un testo contenuto in un file di lunghezza non noto, determinare da quante righe è costituito
 
 ```
-Scanner input = new Scanner(System.in);
+Scanner file = new Scanner(new FileReader("./testo.txt"));
+
+int counter = 0;
+
+do{
+
+	String line = file.nextLine();
+	counter++;
+
+}while(file.hasNextLine());
+
+System.out.println("Numero di righe: "+counter);
+
 ```
 
 
-#### Classi fondamentali e metodi
+### Classi fondamentali e metodi
 
 * Scanner
   - Next()
