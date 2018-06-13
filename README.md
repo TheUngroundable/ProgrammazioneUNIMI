@@ -11,6 +11,33 @@ Non sarò il programmatore più bravo al mondo... ma in fondo me la cavo, dai!
 
 Prima di tutto hai bisogno di java installato.
 
+## Struttura
+
+### Le Cartelle
+
+Sono presenti varie cartelle tra cui:
+* [Esercizi Scritto] Dove vengono organizzate le tracce d' esame per data
+* [Esercizi Laboratorio] Dove vengono organizzate le tracce d' esame per data
+* [Esercizi Sportivi] Dove vengono proposti degli esercizi alternativi o piccoli progetti
+* [Tracce Laboratorio] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
+* [Tracce Scritto] Dove vengono archiviate le tracce d' esame non ancora svolte o completate
+
+## Guida Pratica di Sopravvivenza
+### Esame di Laboratorio
+
+#### Classi fondamentali e metodi
+
+* [Scanner]
+	- [Next()]
+		-[NextLine()]
+* [String]
+* [Character]
+* [Integer] 
+
+#### Struttura e Manipolazione Dati
+
+Per sopravvivere all' esame di laboratorio è necessario conoscere alcune classi fondamentali e saper manipolarne determinati metodi.
+
 ## Come Funziona
 
 ### Per Compilare il Codice:
