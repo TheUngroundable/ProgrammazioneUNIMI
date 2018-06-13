@@ -5,6 +5,13 @@ Repo degli esercizi tratti dalle tracce d'Esame di Programmazione
 ## Indice
 
 * [Perchè](#perchè)
+   * [Prerequisiti](#prerequisiti)
+* [Perchè](#perchè)
+* [Perchè](#perchè)
+* [Perchè](#perchè)
+* [Perchè](#perchè)
+
+
 
 ## Perchè
 
