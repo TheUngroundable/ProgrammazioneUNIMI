@@ -30,7 +30,7 @@ Sono presenti varie cartelle tra cui:
 ## Indice
 
 * [Esame di Laboratorio](#esame-di-laboratorio)
-   * [Lettura e Manipolazione dei Dati](#struttura-e-manipolazione-dei-dati)
+   - [Lettura e Manipolazione dei Dati](#struttura-e-manipolazione-dei-dati)
       * [Per Leggere da Standard Input](#per-leggere-da-standard-input)
       * [Per Leggere da File](#per-leggere-da-file)
       * [Manipolare lo Scanner](#manipolare-lo-scanner)
