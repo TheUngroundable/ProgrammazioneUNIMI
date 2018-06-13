@@ -62,7 +62,7 @@ int numero = input.nextInt();
 
 * Un Numero Decimale: 
 ```
-floats numeroDecimale = input.nextFloat();
+float numeroDecimale = input.nextFloat();
 ```
 
 * Una Parola (troncata al primo *whitespace*): 
@@ -79,11 +79,11 @@ String frase = input.nextLine();
 ```
 char lettera = in.next().charAt(0);
 ```
-
+**Questi Metodi sono validi anche per la lettura da FILE**
 
 #### Interropmere il flusso di Standard Input
 
-
+Per interrompere un flusso di Standard Input, **su Windows**, bisogna, su riga vuota, premere CTRL-Z ed Invio
 
 #### Piccoli Esempi
 > Stampare il numero di righe inserite da standard input
