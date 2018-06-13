@@ -7,7 +7,7 @@ Repo degli esercizi tratti dalle tracce d'Esame di Programmazione
 * [Perchè](#perchè)
    * [Prerequisiti](#prerequisiti)
 * [Struttura](#struttura)
-   * [Le Cartelle](#le cartelle)
+   * [Le Cartelle](#le%20cartelle)
 * [Perchè](#perchè)
 * [Perchè](#perchè)
 
