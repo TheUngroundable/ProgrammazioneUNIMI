@@ -2,6 +2,10 @@
 
 Repo degli esercizi tratti dalle tracce d'Esame di Programmazione
 
+## Indice
+
+* [Perchè](#perchè)
+
 ## Perchè
 
 L' unico modo per avere sempre con te gli esercizi di programmazione con tanto di svolgimento.
