@@ -25,13 +25,13 @@ Sono presenti varie cartelle tra cui:
 ## Guida Pratica di Sopravvivenza
 ### Esame di Laboratorio
 
-#### Struttura e Manipolazione Dati
+### Struttura e Manipolazione Dati
 
 Le librerie da importare sono:
 * import java.util.*;
 * import java.io.*;
 
-##### Leggere da Standard Input
+#### Leggere da Standard Input
 
 Se ti viene richiesto di leggere da standard input è necessario un oggetto Scanner così dichiarato
 
@@ -41,17 +41,17 @@ Scanner input = new Scanner(System.in);
 
 Dove *System.in* si riferisce allo standard input, la tastiera
 
-##### Leggere da File
+#### Leggere da File
 
 Se ti viene invece richiesto di leggere da File è necessario un oggetto Scanner con un oggetto File reader a cui viene passato il path del file
 
 ```
-Scanner file = new Scanner(new FileReader(./testo.txt));
+Scanner file = new Scanner(new FileReader("./testo.txt"));
 ```
 
 Dove *./testo.txt* si riferisce al percorso relativo (o assoluto) del file **COME STRINGA**
 
-##### Leggere riga per riga dato un input o un file
+#### Leggere riga per riga dato un input o un file
 
 Per leggere riga per riga dato un input o un file la soluzione migliore è
 
@@ -60,7 +60,7 @@ Scanner input = new Scanner(System.in);
 ```
 
 
-#### Classi fondamentali e metodi
+### Classi fondamentali e metodi
 
 * Scanner
   - Next()
