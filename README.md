@@ -31,7 +31,7 @@ Le librerie da importare sono:
 * import java.util.*;
 * import java.io.*;
 
-#### Leggere da Standard Input
+#### *Per Leggere da Standard Input*
 
 Se ti viene richiesto di leggere da standard input è necessario un oggetto Scanner così dichiarato
 
@@ -41,7 +41,7 @@ Scanner input = new Scanner(System.in);
 
 Dove *System.in* si riferisce allo standard input, la tastiera
 
-#### Leggere da File
+#### *Per Leggere da File*
 
 Se ti viene invece richiesto di leggere da File è necessario un oggetto Scanner con un oggetto File reader a cui viene passato il path del file
 
@@ -52,7 +52,7 @@ Scanner file = new Scanner(new FileReader("./testo.txt"));
 Dove *./testo.txt* si riferisce al percorso relativo (o assoluto) del file **COME STRINGA**
 
 
-#### Leggere dallo Scanner
+#### *Leggere dallo Scanner*
 Avendo dichiarato correttamente lo Scanner:
 
 * Un Numero Intero: 
@@ -81,11 +81,32 @@ char lettera = in.next().charAt(0);
 ```
 **Questi Metodi sono validi anche per la lettura da FILE**
 
-#### Interropmere il flusso di Standard Input
+#### *Manipolazione di un testo di lunghezza NON NOTA*
+
+> dato un testo contenuto in un file di lunghezza non noto, determinare da quante righe è costituito
+
+```
+Scanner file = new Scanner(new FileReader("./testo.txt"));
+
+int counter = 0;
+
+do{
+
+	String line = file.nextLine();
+	counter++;
+
+}while(file.hasNextLine());
+
+System.out.println("Numero di righe: "+counter);
+
+```
+
+
+#### *Interropmere il flusso di Standard Input*
 
 Per interrompere un flusso di Standard Input, **su Windows**, bisogna, su riga vuota, premere CTRL-Z ed Invio
 
-#### Piccoli Esempi
+#### *Piccoli Esempi*
 > Stampare il numero di righe inserite da standard input
 
 ```
