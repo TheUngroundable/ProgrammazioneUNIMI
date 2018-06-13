@@ -83,7 +83,19 @@ char lettera = in.next().charAt(0);
 
 #### *Manipolazione di un testo di lunghezza NON NOTA*
 
-> dato un testo contenuto in un file di lunghezza non noto, determinare da quante righe è costituito
+Per manipolare un testo di lunghezza NON NOTA è necessario usare un ciclo do...while in modo tale che peschi riga per riga fintanto che ci sono righe nel buffer.
+
+Per pescare riga per riga usiamo .nextLine(), per verificare se c'è ancora una riga usiamo .hasNextLine() che ritorna true se è presente ancora una riga nel buffer
+
+Analogamente questo procedimento funziona anche per manipolare parola per parola, ma in questo caso pescheremo le nostre parole con .next() e verificheremo se ci sono ancora parole con .hasNext() nel nostro *while*
+
+
+#### *Interropmere il flusso di Standard Input*
+
+Per interrompere un flusso di Standard Input, **su Windows**, bisogna, su riga vuota, premere CTRL-Z ed Invio
+
+#### *Piccoli Esempi*
+> Dato un testo contenuto in un file di lunghezza non noto, determinare da quante righe è costituito
 
 ```
 Scanner file = new Scanner(new FileReader("./testo.txt"));
@@ -99,18 +111,6 @@ do{
 
 System.out.println("Numero di righe: "+counter);
 
-```
-
-
-#### *Interropmere il flusso di Standard Input*
-
-Per interrompere un flusso di Standard Input, **su Windows**, bisogna, su riga vuota, premere CTRL-Z ed Invio
-
-#### *Piccoli Esempi*
-> Stampare il numero di righe inserite da standard input
-
-```
-Scanner input = new Scanner(System.in);
 ```
 
 
