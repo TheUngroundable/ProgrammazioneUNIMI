@@ -33,13 +33,13 @@ public class Vigenere{
 
 					if(Character.isLetter(a)){
 
-						if((uno+due)>(uno+25)){
-							tre=(uno+due)-(uno+25);
+						if(('A'+due)>('A'+25)){
+							tre=due;
 							def=(char)(tre);
 							System.out.println(a+"+"+b+"="+def);
 						}
 						else{
-							tre=uno+due;
+							tre='A'+due;
 							def=(char)(tre);
 							System.out.println(a+"+"+b+"="+def);
 						}
