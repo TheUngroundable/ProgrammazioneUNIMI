@@ -34,6 +34,12 @@ public class ModelloLinguistico{
 
 	}
 
+	public int[] getFrequenze(){
+
+		return frequenze;
+
+	}
+
 	public int quantiTesti(){
 
 		//return numero di testi con cui è stato addestrato
@@ -73,7 +79,7 @@ public class ModelloLinguistico{
 
 		if(quantiCaratteri()>0){
 
-			return frequenzaAssoluta(c) / quantiCaratteri();
+			return (frequenzaAssoluta(c) / (double) quantiCaratteri());
 
 		} else {
 
@@ -89,27 +95,83 @@ public class ModelloLinguistico{
 		//frequenza relativa di quel carattere nei due modelli coinvolti
 		//si eleva al quadrato e tali quadrati si sommano
 		//return sqrt somma dei quadrati
+		double output = 0;
 
 		for(int i = 0; i<26; i++){
 
 			double differenza = this.frequenzaRelativa((char)(i+'a')) - m.frequenzaRelativa((char)(i+'a'));
 
+			output += Math.pow(differenza, 2);
+
 		}
 
-		return 0;
+		return Math.sqrt(output);
 
 	}
 
 	@Override
 	public String toString(){
 
-		return "";
+		String output = "";
+
+		for(int i = 0; i<26; i++){
+
+			output += ("[ "+(char)('a'+i)+", "+frequenze[i]+" ]");
+
+		}
+
+		return output;
 
 	}
 
-	public boolean equals(){
+	@Override
+	public boolean equals(Object o){
 
-		return true;
+		//Mi hai passato quacosa di giusto?
+		if(o == null){
+
+			return false;
+
+		}
+
+		//Confronto fra Objects
+		if(this == o){
+
+			return true;
+
+		}
+
+		//Vedo se è un' istanza
+		if(!(o instanceof ModelloLinguistico)){
+
+			return false;
+
+		}
+
+		//Casto
+		ModelloLinguistico m = (ModelloLinguistico) o;
+
+		//Controllo valore per valore
+
+
+
+		return (this.quantiTesti() == m.quantiTesti()) && Arrays.equals(this.getFrequenze(), m.getFrequenze());
+
+	}
+
+	@Override
+	public int hashCode(){
+
+		int hash = 7;
+		hash = 31 * hash + countTesti;
+
+		for(int frequenza : frequenze){
+
+			hash = 31 * hash + frequenza;
+
+		}
+
+		return hash;
 
 	}
 
