@@ -44,6 +44,18 @@ public class Civilta {
 
 	}
 
+	public void aggiungiCitta(Citta citta){
+
+		listaCitta.add(citta);
+
+	}
+
+	public void rimuoviCitta(Citta citta){
+
+		listaCitta.remove(citta);
+
+	}
+
 	public LinkedList<Citta> getCitta(){
 
 		return listaCitta;
@@ -124,7 +136,7 @@ public class Civilta {
 
 		output += "Civilta: "+"["+nome+", "+tesoro+"] - ";
 
-		output += "Lista Città: ";
+		output += "\nLista Città: ";
 
 		for(Citta citta : listaCitta){
 
@@ -132,7 +144,7 @@ public class Civilta {
 
 		}
 
-		output += "Risorse: ";
+		output += "\nRisorse: ";
 
 		for(Risorsa risorsa : stock){
 
