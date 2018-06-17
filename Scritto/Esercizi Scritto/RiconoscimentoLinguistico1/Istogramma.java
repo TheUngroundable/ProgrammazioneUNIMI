@@ -38,7 +38,7 @@ public class Istogramma{
 
 		for(int i = 0; i<26; i++){
 
-			output = output + righe[i];
+			output = output + righe[i]; 
 
 			double counter =  m.frequenzaAssoluta((char)('a'+i));
 
