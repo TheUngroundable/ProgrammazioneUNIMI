@@ -5,12 +5,22 @@ public class Risorsa {
 	private String nome;
 	private int prezzo;
 
+	/**
+	* Costruttore di Default per la Risorsa
+	*/
+
 	public Risorsa(){
 
 		this.nome = null;
 		this.prezzo = 0;
 
 	}
+
+	/**
+	*	Costruttore con Nome e Prezzo della Risorsa
+	*	@param nome Il nome della risorsa
+	*	@param prezzo Il prezzo della risorsa
+	*/
 
 	public Risorsa(String nome, int prezzo){
 
@@ -19,11 +29,19 @@ public class Risorsa {
 
 	}
 
+	/**
+	*	@return Il nome della Risorsa
+	*/
+
 	public String getNome(){
 
 		return nome;
 
 	}
+
+	/**
+	*	@return Il Prezzo della Risorsa
+	*/
 
 	public int getPrezzo(){
 
@@ -31,12 +49,22 @@ public class Risorsa {
 
 	}
 
+	/**
+	*	@return Una stringa contenente le informazioni della Risorsa
+	*
+	*/
+
 	@Override
 	public String toString(){
 
 		return "["+nome+", "+prezzo+"]";
 
 	}
+
+	/**
+	*	@param o L' oggetto che si vuole confrontare
+	*	@return true se this e o sono uguali, altrimenti false
+	*/
 
 	@Override
 	public boolean equals(Object o){
@@ -65,8 +93,11 @@ public class Risorsa {
 
 	}
 
-	@Override
+	/**
+	*	@return L' hashCode dell' Oggetto
+	*/
 
+	@Override
 	public int hashCode(){
 
 		int hash = 7;
@@ -75,8 +106,6 @@ public class Risorsa {
 
 		return hash;
 
-
 	}
-
 
 }

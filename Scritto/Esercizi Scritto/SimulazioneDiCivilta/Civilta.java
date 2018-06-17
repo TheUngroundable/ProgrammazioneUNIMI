@@ -9,9 +9,7 @@ public class Civilta {
 
 
 	/**
-	
-		Costruttore di default per una nuova Civiltà
-
+	*	Costruttore di default per una nuova Civiltà
 	*/
 
 	public Civilta(){
@@ -23,6 +21,11 @@ public class Civilta {
 
 	}
 
+	/**
+	*	Costruttore con parametro per una nuova Civiltà
+	*	@param nome Nome della nuova Civiltà
+	*/
+
 	public Civilta(String nome){
 
 		this.nome = nome;
@@ -32,11 +35,21 @@ public class Civilta {
 
 	}
 
+
+	/**
+	*	@return Il nome della Civiltà
+	*/
+
 	public String getNome(){
 
 		return nome;
 
 	}
+
+
+	/**
+	*	@return Il tesoro della Civiltà
+	*/
 
 	public int getTesoro(){
 
@@ -44,11 +57,19 @@ public class Civilta {
 
 	}
 
+	/**
+	*	@param citta Città da aggiungere a questa Civiltà
+	*/
+
 	public void aggiungiCitta(Citta citta){
 
 		listaCitta.add(citta);
 
 	}
+
+	/**
+	*	@param citta Città da rimuovere da questa Civiltà
+	*/
 
 	public void rimuoviCitta(Citta citta){
 
@@ -56,11 +77,22 @@ public class Civilta {
 
 	}
 
+
+	/**
+	*	@return Lista delle Città relative a questa Civiltà
+	*/
+
 	public LinkedList<Citta> getCitta(){
 
 		return listaCitta;
 
 	}
+
+	/**
+	*	@param nome Nome della città da fondare
+	*	@param risorsa Risorsa che si vuole assegnare alla Città da fondare
+	*	@return La città appena fondata
+	*/
 
 	public Citta fondaCitta(String nome, Risorsa risorsa){
 
@@ -73,18 +105,29 @@ public class Civilta {
 	}
 
 
+	/**
+	*	@param r Risorsa da aggiungere allo stock
+	*/
 	public void aggiungiRisorsa(Risorsa r){
 
 		stock.add(r);
 
 	}
 
+
+	/**
+	*	@param d Quantità di denaro da sommare al tesoro
+	*/
 	public void aggiungiDenaro(int d){
 
 		this.tesoro += d;
 
 	}
 
+
+	/**
+	*	Richiama il metodo produci su ogni Città relativa a questa Civiltà
+	*/
 	public void faiProdurre(){
 
 		for(Citta citta : listaCitta){
@@ -95,11 +138,23 @@ public class Civilta {
 
 	}
 
+
+	/**
+	*	@param r Risorsa da controllare
+	*	@return True se la Civiltà possiede la Risorsa, altrimenti false
+	*/
+
 	public boolean possiede(Risorsa r){
 
 		return stock.contains(r);
 
 	}
+
+
+	/**
+	*	@param altra Civilta a cui vendere le risorse
+	*	@return true se è stato compiuto almeno un commercio, altrimenti false
+	*/
 
 	public boolean vendiRisorseA(Civilta altra){
 
@@ -125,6 +180,11 @@ public class Civilta {
 
 	}
 
+
+
+	/**
+	*	@return Una lista contenente le informaizoni relative alla Civiltà
+	*/
 
 	@Override
 	public String toString(){
@@ -155,6 +215,11 @@ public class Civilta {
 		return output;
 
 	}
+
+
+	/**
+	*	@return true se this è uguale a obj, altrimenti false
+	*/
 
 	@Override
 	public boolean equals(Object obj){

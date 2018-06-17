@@ -4,11 +4,22 @@ public class Storia{
 
 	private LinkedList<Civilta> listaCivilta;
 
+
+	/**
+	*	Costruttore di default
+	*/
+
 	public Storia(){
 
 		this.listaCivilta = null;
 
 	}
+
+
+	/**
+	*	Costruttore con parametro
+	*	@param listaCivilta Lista da assegnare a questa Storia
+	*/
 
 	public Storia(LinkedList<Civilta> listaCivilta){
 
@@ -16,12 +27,22 @@ public class Storia{
 
 	}
 
+
+	/**
+	*	@return La lista delle Civiltà relative a questa Storia
+	*/
+
 	public LinkedList<Civilta> getListaCivilta(){
 
 		return listaCivilta;
 
 	}
 
+
+	/**
+	*	Effettua uno e un solo commercio fra tutte le civiltà della storia
+	*	ora non ho cazzi di scrivere tutto il pippozzo, te lo becchi sulla traccia d' esame
+	*/
 
 	public void commercia(){
 
@@ -44,6 +65,10 @@ public class Storia{
 
 	}
 
+	/**
+	*	@return La civiltà più ricca fra quelle relative alla Storia
+	*/
+
 	public Civilta piuRicca(){
 
 		int max = Integer.MIN_VALUE;
@@ -64,6 +89,10 @@ public class Storia{
 
 	}
 
+
+	/**
+	*	@return La civiltà più povera della Storia hahhah
+	*/
 	public Civilta piuPovera(){
 
 		int min = Integer.MAX_VALUE;
@@ -84,11 +113,21 @@ public class Storia{
 
 	}
 
+
+	/**
+	*	@param n Cicli di produzione
+	*	@return La civiltà più ricca
+	*/
+
 	public Civilta evolvi(int n){
 
-		for(Civilta civilta : listaCivilta){
+		for(int i = 0; i<n; i++){
 
-			civilta.faiProdurre();
+			for(Civilta civilta : listaCivilta){
+
+				civilta.faiProdurre();
+
+			}
 
 		}
 
@@ -98,6 +137,9 @@ public class Storia{
 
 	}
 
+	/**
+	*	Pippozzo un po' lunghino
+	*/
 	public void conquista(){
 
 		Civilta piuRicca = this.piuRicca();

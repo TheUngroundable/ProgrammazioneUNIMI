@@ -5,12 +5,22 @@ public class Citta {
 	private String nome;
 	private Risorsa risorsa;
 
+
+	/**
+	*	Costruttore di Default per la Città
+	*/
+
 	public Citta(){
 
 		nome = null;
 		risorsa = null;
 
 	}
+
+	/**
+	*	@param nome Nome della città
+	*	@param risorsa Risorsa da assegnare alla città
+	*/
 
 	public Citta(String nome, Risorsa risorsa){
 
@@ -19,11 +29,19 @@ public class Citta {
 
 	}
 
+	/**
+	*	@return Il nome della Città
+	*/
+
 	public String getNome(){
 
 		return nome;
 
 	}
+
+	/**
+	*	@return La risorsa prodotta dalla Città
+	*/
 
 	public Risorsa produci(){
 
@@ -31,6 +49,9 @@ public class Citta {
 
 	}
 
+	/**
+	*	@return Una stringa contenente tutte le informazioni della Città
+	*/
 
 	@Override
 	public String toString(){
@@ -38,6 +59,11 @@ public class Citta {
 		return "["+nome+", "+risorsa.getNome()+"]";
 
 	}
+
+	/**
+	*	@param obj La città da confrontare
+	*	@return true se this == obj, altrimenti false
+	*/
 
 	@Override
 	public boolean equals(Object obj){
