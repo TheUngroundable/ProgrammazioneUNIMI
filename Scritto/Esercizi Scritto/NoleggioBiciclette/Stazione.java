@@ -6,7 +6,7 @@ public class Stazione{
 	private double x;
 	private double y;
 	private int posizioni;
-	private LinkedList<Bicicletta> occupate;
+	private Bicicletta[] occupate;
 	private boolean elettriche;
 
 	public Stazione(String nome, double x, double y, int posizioni, boolean elettriche){
@@ -15,7 +15,7 @@ public class Stazione{
 		this.x = x;
 		this.y = y;
 		this.posizioni = posizioni;
-		this.occupate = new LinkedList<Bicicletta>();
+		this.occupate = new Bicicletta[posizioni];
 		this.elettriche = elettriche;
 
 	}
@@ -28,13 +28,25 @@ public class Stazione{
 
 	public int nBiciclette(){
 
-		return occupate.size();
+		int count = 0;
+
+		for(Bicicletta bici : occupate){
+
+			if(bici != null){
+
+				count++;
+
+			}
+
+		}
+
+		return count;
 
 	}
 
 	public boolean piena(){
 
-		if(posizioni == occupate.size()){
+		if(posizioni == nBiciclette()){
 
 			return true;
 
@@ -48,7 +60,7 @@ public class Stazione{
 
 	public boolean vuota(){
 
-		if(occupate.size()==0){
+		if(nBiciclette()==0){
 
 			return true;
 
@@ -86,9 +98,17 @@ public class Stazione{
 
 	public Bicicletta posizione(int i){
 
-		if(occupate.get(i)!=null){
+		if(occupate[i]!=null){
 
-			return occupate.get(i);
+			if(i>0 && i<posizioni){
+
+				return occupate[i];
+
+			} else {
+
+				return null;
+
+			}
 
 		} else {
 
@@ -100,16 +120,62 @@ public class Stazione{
 
 	public void aggancia(Utente u, int i){
 
-		if(occupate.get(i)!=null || u.bicicletta() == null){
+		//prima vediamo se c' è posto
 
-			throw new IllegalStateException();
+		if(nBiciclette()<posizioni){
 
-		} else {
+			if(occupate[i]!=null || u.bicicletta() == null){
 
-			occupate.set(i);
+				throw new IllegalStateException();
+
+			} else {
+
+				Bicicletta temp = u.bicicletta();
+				occupate[i] = u.bicicletta();
+				u.restituisci();
+				temp.restituisci();
+
+			}
 
 		}
 
 	}
+
+
+	public int disponibile(boolean elettrica){
+
+		for(int i = 0; i < occupate.length; i++){
+
+			if(elettrica){
+
+				if(occupate[i]!=null && occupate[i].elettrica()){
+
+					return i;
+
+				}
+
+			} else {
+
+				if(occupate[i]!=null){
+
+					return i;
+
+
+				}
+
+			}
+
+		}
+
+		return -1;
+
+	}
+
+	public distanzaDa(double x, double y){
+
+		return Math.sqrt(Math.pow(2,(x-this.x)+Math.pow(2,(y-this.y))));
+
+	}
+
 
 }
