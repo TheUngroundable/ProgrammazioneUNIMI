@@ -48,9 +48,55 @@ public class Offerta{
 
 	}
 
+	//TODO
 	public static double totale(Offerta[] off, Prodotto[] p, int[] qta, boolean carta){
 
+		return 0;
 
+	}
+
+	@Override
+	public String toString(){
+
+		return "["+nomeOfferta+", "+prodotto.toString()+", "+percSconto+", "+numeroMinimo+", "+soloCartaFedelta+"]";
+
+	}
+
+	@Override
+	public boolean equals(Object obj){
+
+		if(obj == null){
+
+			return false;
+
+		}
+
+		if(this == obj){
+
+			return true;
+
+		}
+
+		if(!(obj instanceof Offerta)){
+
+			return false;
+
+		}
+
+		Offerta altra = (Offerta) obj;
+
+
+		return (nomeOfferta.equals(altra.nomeOfferta))&&(prodotto.equals(altra.prodotto))
+				&& (percSconto == altra.percSconto) && (numeroMinimo == altra.numeroMinimo)
+				&& (soloCartaFedelta == altra.soloCartaFedelta);
+
+	}
+
+	@Override
+	public int hashCode(){
+		
+		int hash = 7;
+		return hash * 31 + (nomeOfferta.hashCode() + prodotto.hashCode() + (int)percSconto + numeroMinimo + Boolean.hashCode(soloCartaFedelta));
 
 	}
 
