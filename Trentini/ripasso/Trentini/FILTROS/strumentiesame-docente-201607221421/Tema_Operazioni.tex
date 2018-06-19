@@ -1,0 +1,309 @@
+\documentclass[12pt]{article}
+
+\usepackage{verbatim}
+%\usepackage[italian]{babel}
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm]{geometry}
+%\usepackage[a4paper,left=1.9cm,right=1.9cm,top=1.5cm]{geometry}
+%\usepackage[compact]{titlesec}
+% \titlespacing{\section}{0pt}{*1}{*1}
+% \titlespacing{\subsection}{10pt}{*1}{*1}
+% \titlespacing{\subsubsection}{10pt}{*1}{*1}
+%\usepackage{mdwlist}
+%\setlength{\columnsep}{1.38cm}
+\setlength\parindent{0pt}
+%\setlength\bibsep{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+%\usepackage[italian]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{paralist}
+
+% \topmargin=-2.7cm
+% \oddsidemargin=-1cm
+% \evensidemargin=-1cm
+% \textwidth=18cm
+%\textheight=26.7cm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Laboratorio di Programmazione\\
+\textit{ESAME del 11 luglio 2016}}
+
+\date{}
+
+%\makeindex
+
+%%%%%%%%%%%%%%%%%%
+\begin{document}
+%\pagestyle{empty}
+%\twocolumn[\begin{center}\textbf{LabProg 2012-2013 - TESTO ESAME\\
+%Andrea Trentini - D.I. - UniMi\\
+%05 febbraio 2013} \end{center} \vspace{.5cm}]
+\maketitle
+
+%  \tableofcontents
+%  \hrule
+
+\hrulefill
+
+\textbf{Avvertenze}
+
+\begin{compactitem}
+\item 
+Nello svolgimento dell'elaborato è possibile
+usare qualunque classe delle librerie standard di Java.
+
+\item Non è invece
+ammesso l'uso delle classi del package {\tt prog} allegato al libro di
+testo del Prof.~Pighizzini e impiegato nella prima parte del corso.
+
+\item Si consiglia CALDAMENTE l'utilizzo dello script ``checker.sh'' (se non è eseguibile renderlo tale col comando \texttt{chmod}) per 
+compilare ed effettuare una prima valutazione del proprio elaborato.
+Si consiglia anche di leggere il sorgente dei \texttt{Test\_*.java} per 
+capire cosa devono offrire le classi da sviluppare.
+
+\item Ricordarsi, quando si programma: \emph{Repetita NON iuvant} o DRY (\emph{Don't Repeat Yourself}).
+
+\item Un corpo di metodo (escluso un \texttt{main}) più lungo di una decina di righe è un buon indizio di ``strada sbagliata''
+
+\item Se avete dubbi sulla interpretazione del testo chiedete!
+
+\end{compactitem}
+
+
+\hrulefill
+%\medskip
+
+%%%%%%%%%%%%%%%%%%
+\section*{ESERCIZIO FILTRO}
+
+
+\textbf{===$>>>$ INIZIARE PRIMA CON QUESTO,
+se non si è in grado di portare a termine questo esercizio...
+NON PROSEGUIRE!!!
+(la correzione del resto dell'elaborato è subordinata alla correttezza di questo primo esercizio)}
+
+\medskip
+
+% Realizzare una classe \texttt{Stat}, dotata del solo \texttt{main},
+% che letta da linea di comando la distribuzione di una variabile
+% casuale discreta con valori interi compresi fra 18 e 30, calcoli e
+% visualizzi valore atteso e varianza.
+
+Realizzare una classe \texttt{Stat}, dotata del solo \texttt{main},
+che letta da linea di comando una serie di coppie di numeri $v_i$ $p_i$
+che rappresentano ciascuna un voto e la sua probabilità, calcoli e visualizzi il valore atteso, secondo la formula fornita sotto.
+\begin{compactitem}
+\item i valori $v_i$ sono di tipo \texttt{int} compresi tra 18 e 30.
+\item i valori $p_i$ sono di tipo \texttt{float} compresi tra 0 e 1 e tali che $\sum_{i} p_i = 1.0$
+\end{compactitem}
+
+% La distribuzione è descritta da coppie contigue di numeri $x_i$ $p_i$,
+% di cui il primo di tipo \texttt{int} ed il secondo di tipo
+% \texttt{float}, tali che
+% $\sum_{i} p_i = 1.0$
+
+Ecco due esempi:
+\begin{verbatim}
+18 0.15 21 0.15 22 0.05 24 0.05 25 0.25 26 0.05 28 0.18 30 0.12
+24 0.5 25 0.2 30 0.3
+\end{verbatim} 
+%18*0.15+21*0.15+22*0.05+24*0.05+25*0.25+26*0.05+28*0.18+30*0.12
+Si ricorda che il valore atteso ($E$) \`e definito da
+$$E = \sum_{i} v_i \cdot p_i$$
+% mentre la varianza \`e definita da
+% $$V = \sum_{i} (v_i - E)^2 \cdot p_i$$
+
+Qualora uno dei valori $v_i$ inseriti non sia nel range [18,30] o uno dei $p_i$ non sia nel range [0,1]
+l'applicazione terminerà visualizzando un messaggio d'errore.
+A parte ciò, SI ASSUMA che l'input (gli argomenti dell'applicazione)
+sia CORRETTO sintatticamente e semanticamente, e non vuoto.
+Ecco un possibile \textbf{esempio} di esecuzione:
+
+\begin{verbatim}
+$ java Stat  18 0.15 21 0.15 22 0.05 24 0.05 25 0.25 26 0.05 28 0.18 30 0.12
+E : 24.340002
+\end{verbatim}
+%V : 14.4844
+
+
+
+\hrulefill
+%\medskip
+
+\section*{Tema d'esame}
+
+Lo scopo dell'esercizio è realizzare un insieme di operandi e operatori. Gli \textit{operandi} sono gli argomenti, i valori da trattare, mentre le \textit{operazioni} calcolano delle funzioni semplici su insiemi di \textit{operandi}. 
+
+Le \textbf{classi} da realizzare sono le seguenti:
+\medskip
+
+\begin{compactenum}
+\item \texttt{Operando}: rappresenta (``wrapper'') un valore double
+
+\item \texttt{Operazione}: classe ASTRATTA che rappresenta una generica operazione da applicare ad un insieme di operandi
+
+\item \texttt{Somma}: sottoclasse di \texttt{Operazione}, calcola la somma degli operandi che contiene
+
+\item \texttt{Massimo}: sottoclasse di \texttt{Operazione}, calcola il massimo tra gli operandi che contiene
+
+\item \texttt{Media}: sottoclasse di \texttt{Operazione}, calcola la media degli operandi che contiene
+
+\item \texttt{Moltiplicazione}: sottoclasse di \texttt{Operazione}, calcola il prodotto degli operandi che contiene
+
+\item \texttt{SommaUnici}: sottoclasse di \texttt{Operazione}, calcola la somma degli operandi che contiene, ESCLUDENDO le ripetizioni
+
+\end{compactenum}
+
+%%%%%%%%%%%%%%%%%%
+\section*{Specifica delle classi}
+
+Le classi (\textbf{pubbliche}!) dovranno esporre almeno i metodi e costruttori \textbf{pubblici} indicati, più eventuali altri metodi e costruttori %\textit{privati}, 
+se ritenuti opportuni.
+%in alcuni casi le definizioni dei metodi sono incomplete
+%(vanno aggiunti i tipi mancanti).
+Gli attributi (campi) delle classi devono essere dichiarati \textbf{privati}.
+Per leggere e modificarne i valori, 
+creare opportunamente, e solo dove indicato, i metodi di accesso ({\tt set} e 
+{\tt get}).
+Se si usano classi che utilizzano tipi generici, si suggerisce  di utilizzarne 
+le versioni opportunamente istanziate (es. \texttt{ArrayList<String>} invece di
+\texttt{ArrayList}).
+Ogni classe deve avere il metodo {\tt 
+toString} che descriva lo stato delle istanze. 
+
+% Alcuni controlli di coerenza vengono suggeriti nel testo, potrebbero
+% essercene altri a discrezione. 
+% Si consiglia di posporre
+% l'implementazione dei controlli di coerenza, come ultima operazione,
+% dopo aver realizzato un sistema funzionante.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Operando (Comparable)}
+
+Rappresenta un generico valore \texttt{double}. Implementa l'interfaccia \texttt{Comparable<Operando>}
+Deve implementare almeno i seguenti metodi:
+
+\begin{compactitem}
+\item \texttt{public Operando(double valore)} costruttore  che accetta il valore interno iniziale
+\item \texttt{public Operando()} costruttore  che imposta a 0 il valore interno
+\item \texttt{public double getValore()} restituisce il valore corrente
+\item \texttt{public String toString()} ritorna una rappresentazione dello stato dell'oggetto
+\end{compactitem}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Operazione}
+
+Classe \textbf{astratta}, ``contiene'' un insieme (potenzialmente infinito) di operandi, le sue sottoclassi completeranno l'implementazione realizzando il calcolo effettivo.
+Deve implementare almeno i seguenti metodi:
+
+\begin{compactitem}
+ \item \texttt{public void addOperando(Operando o)}: aggiunge un operando all'insieme corrente, NON effettua il calcolo dell'operazione
+
+ \item \texttt{public int getNumeroOperandi()}: restituisce il numero degli operandi attualmente contenuti
+ 
+ \item \texttt{public List<Operando> getOperandi()}: restituisce una struttura dati compatibile con 
+\texttt{List<Operando>} contenente tutti gli operandi attualmente presenti in operazione
+
+%\item \texttt{public double getRisultato()}: restituisce il risultato corrente (cioè riferito all'ultima invocazione di \texttt{calcola()}) dell'operazione, NON effettua il calcolo dell'operazione
+
+%\item \texttt{protected void setRisultato(double r)}: imposta il risultato dell'operazione, NON effettua il calcolo dell'operazione
+
+\item \texttt{public void sort()}: ordina gli operandi in base al loro valore
+
+\item \texttt{public String toString()}: restituisce una forma testuale dello stato dell'oggetto
+
+\item \texttt{public double ultimo()}: restituisce il valore dell'ultimo operando del contenitore
+
+\item \texttt{public abstract double calcola()}: efffettua il calcolo (e restituisce il valore relativo) effettivo, verrà implementato nelle sottoclassi, deve lanciare un'eccezione se l'operazione non ha operandi su cui lavorare
+\end{compactitem}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Somma}
+
+Sottoclasse di Operazione, calcola la somma degli operandi, ad es. se la lista dei valori è: 3, 5, 8, 3, 3 il risultato diventa 3+5+8+3+3=22.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Massimo}
+
+Sottoclasse di Operazione, calcola il massimo tra gli operandi, ad es. se la lista dei valori è: 3, 5, 8 il risultato diventa 8.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Media}
+
+Sottoclasse di Operazione, calcola la media degli operandi, ad es. se la lista dei valori è: 4, 9, 8, 7, 3 il risultato diventa (4+9+8+7+3)/5=6,2.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Moltiplicazione}
+
+Sottoclasse di Operazione, calcola il prodotto degli operandi, ad es. se la lista dei valori è: 3, 5, 8 il risultato diventa 3*5*8=120.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{SommaUnici}
+
+Sottoclasse di Operazione, calcola la somma degli operandi considerando \textbf{una sola volta} gli operandi uguali, ad es. se la lista dei valori è: 3, 5, 8, 3, 3 il risultato diventa 3+5+8=16.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \hrulefill
+% \section*{Raccomandazioni per la consegna}
+% 
+% Affinché l'elaborato sia valutato, è richiesto che sia le classi sviluppate che i test risultino
+% \textit{compilabili} SENZA ERRORI. A tal fine i metodi/costruttori che non saranno sviluppati dovranno comuque avere
+% una implementazione fittizia come la seguente:
+% \begin{verbatim}
+% public <tipo> <nomeDelMetodo> (<lista parametri>) {
+%    throw new UnsupportedOperationException();
+% }
+% \end{verbatim}
+% Si suggerisce quindi di dotare da subito le classi di tutti i metodi richiesti, 
+% implementandoli in modo fittizio, e poi di sostituire man mano le 
+% implementazioni fittizie con implementazioni che rispettino le specifiche.
+
+\hrulefill
+
+%%%%%%%%%%%%%%%%%%
+\section*{Consegna}
+%\marginpar{QUESTA SEZIONE E' PRESENTE PER COMPLETEZZA}
+Si ricorda che:
+\begin{compactitem}
+ \item le classi devono essere tutte \textit{public}
+ \item vanno consegnati tutti (e soli) i file \textit{.java} prodotti
+ \item si consiglia di fare upload successivi e frequenti, i docenti vedono solo l'ultima versione di ogni file
+ \item NON va consegnato un file ``archivio''! (NO tar, zip, etc.)
+ \item NON vanno consegnati i \textit{.class}
+ \item NON vanno consegnati i file relativi al meccanismo di autovalutazione (\textit{Test\_*.java, AbstractTest.java, *.sh})
+ \item eseguite l'upload dei SINGOLI file sorgente (http://upload.di.unimi.it) nella sessione ``Trentini''
+\end{compactitem}
+
+\hrulefill
+
+\begin{center}*** ATTENZIONE!!! ***\end{center}
+
+NON VERRANNO VALUTATI GLI ELABORATI CON ERRORI DI COMPILAZIONE O 
+LE CONSEGNE CHE NON RISPETTANO LE SPECIFICHE (ad esempio consegnare un 
+archivio zippato è sbagliato).%, come anche consegnare ad un docente diverso dal proprio assegnato).
+
+UN SINGOLO ERRORE DI COMPILAZIONE O DI PROCEDURA INVALIDA 
+\textbf{TUTTO} 
+L'ELABORATO.
+\medskip
+
+\hrulefill
+
+{\bf Per ritirarsi}
+fare l'upload di un file vuoto di nome  \texttt{ritirato.txt}.
+% Se avete caricato 
+% dei file nella sessione del docente sbagliato, caricate lì un file vuoto di 
+% nome  \texttt{errataConsegna.txt} e caricate poi i file nella sessione giusta. 
+
+\hrulefill
+
+%%%%%%%%%%%%%%
+\end{document}
+

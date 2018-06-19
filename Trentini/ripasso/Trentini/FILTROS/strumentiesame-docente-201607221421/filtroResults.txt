@@ -1,0 +1,625 @@
+================================================
+INPUT
+1: 18 0.15 20 0.15 23 0.05 24 0.05 25 0.24 26 0.06 28 0.18 30 0.12
+2: 18 0.2 20 0.1 23 0.05 24 0.05 25 0.20 27 0.1 28 0.18 30 0.12
+risultato:
+24.25
+24.29
+ERRORE SU INPUT
+================================================
+================================================
+================================================
+./consegneTutti.zip.dir/chiara.ceroni/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/chiara.ceroni ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/chiara.mombelli/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/chiara.mombelli ~/Programmazione/esami/2016-07-11
+E: 15.610001
+---------------------
+E: 15.650001
+---------------------
+================================================
+./consegneTutti.zip.dir/christian.celora/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/christian.celora ~/Programmazione/esami/2016-07-11
+v8p8
+E = 24.250002
+---------------------
+v8p8
+E = 24.29
+---------------------
+v8p8
+Errore
+================================================
+./consegneTutti.zip.dir/cecilia.manzoni/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/cecilia.manzoni ~/Programmazione/esami/2016-07-11
+{18=0.15, 20=0.15, 23=0.05, 24=0.05, 25=0.24, 26=0.06, 28=0.18, 30=0.12}
+24.250002
+---------------------
+{18=0.2, 20=0.1, 23=0.05, 24=0.05, 25=0.2, 27=0.1, 28=0.18, 30=0.12}
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/matteo.negri6/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/matteo.negri6 ~/Programmazione/esami/2016-07-11
+E = 24.250002
+---------------------
+E = 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/alessandro.pogliaghi/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/alessandro.pogliaghi ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/matteo.martinelli5/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/matteo.martinelli5 ~/Programmazione/esami/2016-07-11
+E: 24.24999988079071
+---------------------
+E: 24.290000081062317
+---------------------
+================================================
+./consegneTutti.zip.dir/alessandro.mancino/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/alessandro.mancino ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+Voto non consentito
+================================================
+./consegneTutti.zip.dir/andrei.ciulpan/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/andrei.ciulpan ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/al875674/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/al875674 ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+Errore: Voti non compresi tra 18 e 30.
+Valori non compresi tra 0 e 1.
+================================================
+./consegneTutti.zip.dir/stefano.dallasta/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/stefano.dallasta ~/Programmazione/esami/2016-07-11
+18
+0.15
+2.7
+20
+0.15
+3.0
+23
+0.05
+1.15
+24
+0.05
+1.2
+25
+0.24
+6.0
+26
+0.06
+1.56
+28
+0.18
+5.04
+30
+0.12
+3.6
+E = 24.250002
+---------------------
+18
+0.2
+3.6000001
+20
+0.1
+2.0
+23
+0.05
+1.15
+24
+0.05
+1.2
+25
+0.2
+5.0
+27
+0.1
+2.7
+28
+0.18
+5.04
+30
+0.12
+3.6
+E = 24.29
+---------------------
+15
+0.2
+ERRORE
+================================================
+./consegneTutti.zip.dir/davide.berra/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/davide.berra ~/Programmazione/esami/2016-07-11
+0.15
+0.0
+0.15
+0.0
+0.0
+0.05
+0.05
+0.24
+0.06
+0.0
+0.18
+0.0
+0.12
+somma= 24.250002
+---------------------
+0.2
+0.0
+0.1
+0.0
+0.0
+0.05
+0.05
+0.2
+0.0
+0.1
+0.18
+0.0
+0.12
+somma= 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/daniele.rivero/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/daniele.rivero ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+errore
+================================================
+./consegneTutti.zip.dir/samuele.barbaro/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/samuele.barbaro ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+errore
+22.349998
+================================================
+./consegneTutti.zip.dir/michelangelo.maggese/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/michelangelo.maggese ~/Programmazione/esami/2016-07-11
+E : 24.250002
+---------------------
+E : 24.29
+---------------------
+15non valido
+================================================
+./consegneTutti.zip.dir/farshad.vahidifard/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/farshad.vahidifard ~/Programmazione/esami/2016-07-11
+ E : 24.250002
+---------------------
+ E : 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/andrea.pennati2/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/andrea.pennati2 ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/federica.paludo/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/federica.paludo ~/Programmazione/esami/2016-07-11
+E: 24.250006
+---------------------
+E: 24.29001
+---------------------
+================================================
+./consegneTutti.zip.dir/alberto.cavenago/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/alberto.cavenago ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/ettoretancredi.galante/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ettoretancredi.galante ~/Programmazione/esami/2016-07-11
+E = 24.250002
+---------------------
+E = 24.29
+---------------------
+Errore! Valore fuori dal range!
+================================================
+./consegneTutti.zip.dir/melissabelen.guzmanzambrano/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/melissabelen.guzmanzambrano ~/Programmazione/esami/2016-07-11
+il valore aspettato e: 18.6
+---------------------
+il valore aspettato e: 18.6
+---------------------
+================================================
+./consegneTutti.zip.dir/alessio.capuano/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/alessio.capuano ~/Programmazione/esami/2016-07-11
+i voti sono : 
+18
+20
+23
+24
+25
+26
+28
+30
+le statistiche sono: 
+0.15
+0.15
+0.05
+0.05
+0.24
+0.06
+0.18
+0.12
+E: 24.250002
+---------------------
+i voti sono : 
+18
+20
+23
+24
+25
+27
+28
+30
+le statistiche sono: 
+0.2
+0.1
+0.05
+0.05
+0.2
+0.1
+0.18
+0.12
+E: 24.29
+---------------------
+i voti sono : 
+15
+20
+23
+24
+25
+27
+28
+30
+le statistiche sono: 
+0.2
+0.1
+0.05
+0.05
+0.2
+0.1
+0.18
+0.12
+================================================
+./consegneTutti.zip.dir/alessandro.beranti/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/alessandro.beranti ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/filippo.ferraris/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/filippo.ferraris ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/mattia.paolino/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/mattia.paolino ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/roberto.antoniello/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/roberto.antoniello ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/massimoluigi.rioshernandez/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/massimoluigi.rioshernandez ~/Programmazione/esami/2016-07-11
+E= 24.25
+---------------------
+E= 16.82
+---------------------
+Errore neel inserimento dei dati
+E= 0.3
+================================================
+./consegneTutti.zip.dir/salvatore.caramazza/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/salvatore.caramazza ~/Programmazione/esami/2016-07-11
+E : 24.250002
+---------------------
+E : 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/luca.berno/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/luca.berno ~/Programmazione/esami/2016-07-11
+Inserire la coppia di numeri
+18*0.15
+20*0.15
+23*0.05
+24*0.05
+25*0.24
+26*0.06
+28*0.18
+30*0.12
+24.249998
+---------------------
+Inserire la coppia di numeri
+18*0.2
+20*0.1
+23*0.05
+24*0.05
+25*0.20
+27*0.1
+28*0.18
+30*0.12
+24.289999
+---------------------
+Inserire la coppia di numeri
+15*0.2
+20*0.1
+23*0.05
+24*0.05
+25*0.20
+27*0.1
+28*0.18
+30*0.12
+23.689999
+================================================
+./consegneTutti.zip.dir/giulia.contento/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/giulia.contento ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+Argomento non valido
+E: 23.69
+================================================
+./consegneTutti.zip.dir/marco.ganassin/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/marco.ganassin ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/lorenzo.cattaneo1/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/lorenzo.cattaneo1 ~/Programmazione/esami/2016-07-11
+E: 195.0
+---------------------
+E: 196.0
+---------------------
+E: 193.0
+================================================
+./consegneTutti.zip.dir/fr798490/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/fr798490 ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/raffaele.montrasio/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/raffaele.montrasio ~/Programmazione/esami/2016-07-11
+E = 24.250002
+---------------------
+E = 24.29
+---------------------
+voti solo tra 18 e 30
+================================================
+./consegneTutti.zip.dir/andreaalice.gorletta/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/andreaalice.gorletta ~/Programmazione/esami/2016-07-11
+E: 24.24999988079071
+---------------------
+E: 24.290000081062317
+---------------------
+E: 23.68999993801117
+================================================
+./consegneTutti.zip.dir/luca.codognato/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/luca.codognato ~/Programmazione/esami/2016-07-11
+Numeri interi[18, 20, 23, 24, 25, 26, 28, 30]
+Numeri float[0.15, 0.15, 0.05, 0.05, 0.24, 0.06, 0.18, 0.12]
+24.250002
+---------------------
+Numeri interi[18, 20, 23, 24, 25, 27, 28, 30]
+Numeri float[0.2, 0.1, 0.05, 0.05, 0.2, 0.1, 0.18, 0.12]
+24.29
+---------------------
+Numeri interi[20, 23, 24, 25, 27, 28, 30]
+Numeri float[0.2, 0.1, 0.05, 0.05, 0.2, 0.1, 0.18, 0.12]
+22.349998
+================================================
+./consegneTutti.zip.dir/Alexia.Cilenti/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/Alexia.Cilenti ~/Programmazione/esami/2016-07-11
+E: 24.250002
+---------------------
+E: 24.29
+---------------------
+E: 23.69
+================================================
+./consegneTutti.zip.dir/andrea.cammarata2/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/andrea.cammarata2 ~/Programmazione/esami/2016-07-11
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+E : 24.250002
+---------------------
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+E : 24.29
+---------------------
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+Input errato!
+E : 20.69
+================================================
+./consegneTutti.zip.dir/mustafa.eddikh/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/mustafa.eddikh ~/Programmazione/esami/2016-07-11
+[18, 20, 23, 24, 25, 26, 28, 30]
+[0.15, 0.15, 0.05, 0.05, 0.24, 0.06, 0.18, 0.12]
+E: 24.250002
+---------------------
+[18, 20, 23, 24, 25, 27, 28, 30]
+[0.2, 0.1, 0.05, 0.05, 0.2, 0.1, 0.18, 0.12]
+E: 24.29
+---------------------
+[15, 20, 23, 24, 25, 27, 28, 30]
+[0.2, 0.1, 0.05, 0.05, 0.2, 0.1, 0.18, 0.12]
+E: 23.69
+================================================
+./consegneTutti.zip.dir/marco.chiappini/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/marco.chiappini ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/lucafederico.savoldelli/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/lucafederico.savoldelli ~/Programmazione/esami/2016-07-11
+E : 24.250002
+---------------------
+E : 24.29
+---------------------
+NON CORRETTO NEL RANGE
+================================================
+./consegneTutti.zip.dir/lorenzo.riva3/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/lorenzo.riva3 ~/Programmazione/esami/2016-07-11
+Quante coppie di numeri vuoi inserire?
+---------------------
+Quante coppie di numeri vuoi inserire?
+---------------------
+Quante coppie di numeri vuoi inserire?
+================================================
+./consegneTutti.zip.dir/alessandro.pettenuzzo/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/alessandro.pettenuzzo ~/Programmazione/esami/2016-07-11
+E: 24.24999988079071
+---------------------
+E: 24.290000081062317
+---------------------
+================================================
+./consegneTutti.zip.dir/luca.cadore/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/luca.cadore ~/Programmazione/esami/2016-07-11
+E : 24.25
+---------------------
+E : 24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/elisabethveronika.venturino/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/elisabethveronika.venturino ~/Programmazione/esami/2016-07-11
+E: 24.24999988079071
+---------------------
+E: 24.290000081062317
+---------------------
+================================================
+./consegneTutti.zip.dir/alessio.catullo/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/alessio.catullo ~/Programmazione/esami/2016-07-11
+E: 24.24999988079071
+---------------------
+E: 24.290000081062317
+---------------------
+================================================
+./consegneTutti.zip.dir/ERRORI-alesia.sommariva/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-alesia.sommariva ~/Programmazione/esami/2016-07-11
+---------------------
+---------------------
+================================================
+./consegneTutti.zip.dir/ERRORI-andrea.rovati/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-andrea.rovati ~/Programmazione/esami/2016-07-11
+E : 24.24999988079071
+---------------------
+E : 24.290000081062317
+---------------------
+================================================
+./consegneTutti.zip.dir/ERRORI-boris.coteata/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-boris.coteata ~/Programmazione/esami/2016-07-11
+E:24.250002
+---------------------
+E:24.29
+---------------------
+Valori errati
+================================================
+./consegneTutti.zip.dir/ERRORI-federico.bocelli/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-federico.bocelli ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/ERRORI-gioele.laugelli/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-gioele.laugelli ~/Programmazione/esami/2016-07-11
+
+E : 3.6---------------------
+
+E : 3.6---------------------
+
+E : 3.6================================================
+./consegneTutti.zip.dir/ERRORI-guido.dilauro/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-guido.dilauro ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+20.69
+================================================
+./consegneTutti.zip.dir/ERRORI-luca.bonacina1/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-luca.bonacina1 ~/Programmazione/esami/2016-07-11
+IL VALORE ATTESO DELLA SEQUENZA DI DATI INSERITI DA LINEA DI COMANDO E: 23.28
+
+---------------------
+IL VALORE ATTESO DELLA SEQUENZA DI DATI INSERITI DA LINEA DI COMANDO E: 23.400002
+
+---------------------
+VOTO FUORI RANGE
+IL VALORE ATTESO DELLA SEQUENZA DI DATI INSERITI DA LINEA DI COMANDO E: 23.04
+
+================================================
+./consegneTutti.zip.dir/ERRORI-samuel.debenedictis/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-samuel.debenedictis ~/Programmazione/esami/2016-07-11
+24.250002
+---------------------
+24.29
+---------------------
+================================================
+./consegneTutti.zip.dir/ERRORI-yussuf.elbassri/Stat.java
+~/Programmazione/esami/2016-07-11/consegneTutti.zip.dir/ERRORI-yussuf.elbassri ~/Programmazione/esami/2016-07-11
+
+E: 24.250002
+---------------------
+
+E: 24.29
+---------------------
+
+E: 23.69

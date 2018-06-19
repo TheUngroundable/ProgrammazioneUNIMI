@@ -1,0 +1,7 @@
+Scompattando lo "zippone" vi siete trovati una serie di file *.java e uno script (checker.sh)
+che dovete semplicemente lanciare una volta che avete prodotto almeno in parte il vostro elaborato:
+
+$ ./checker.sh
+
+Vengono cosi' compilati tutti i sorgenti e vengono eseguiti alcuni test che vi possono dare una
+prima valutazione sul vostro operato.

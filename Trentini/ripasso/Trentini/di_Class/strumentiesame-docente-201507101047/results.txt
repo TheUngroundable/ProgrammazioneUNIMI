@@ -1,0 +1,5 @@
+# Automatically generated
+# duptype id depth size device inode priority name
+DUPTYPE_FIRST_OCCURRENCE 45 0 1829 40 7996471 1 ./checker.sh
+DUPTYPE_OUTSIDE_TREE -45 0 1829 40 7883401 2 ../../JavaCheckerScript/checker.sh
+# end of file

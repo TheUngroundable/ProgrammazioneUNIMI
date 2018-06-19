@@ -1,0 +1,562 @@
+Archive:  ../consegne.zip
+  inflating: dario.manfredi/001-CAP.java  
+  inflating: dario.manfredi/002-CAP.java  
+  inflating: dario.manfredi/003-Indirizzo.java  
+  inflating: mirko.mannino/001-CAP.java  
+  inflating: mirko.mannino/002-CAP.java  
+  inflating: mirko.mannino/003-Indirizzo.java  
+  inflating: dario.manfredi/004-Collo.java  
+  inflating: mirko.mannino/004-Collo.java  
+  inflating: dario.manfredi/005-Cilindrico.java  
+  inflating: mirko.mannino/005-Cilindrico.java  
+  inflating: alberto.bugini/001-CAP.java  
+  inflating: alberto.bugini/002-Cilindrico.java  
+  inflating: alberto.bugini/003-Cilindrico.java  
+  inflating: alberto.bugini/004-Collo.java  
+  inflating: alberto.bugini/005-Indirizzo.java  
+  inflating: alberto.bugini/006-Indirizzo.java  
+  inflating: alberto.bugini/007-Pallet.java  
+  inflating: alberto.bugini/008-Parallelepipedo.java  
+  inflating: alberto.bugini/009-Parallelepipedo.java  
+  inflating: gd869878/001-CAP.java   
+  inflating: gd869878/002-Indirizzo.java  
+  inflating: dario.manfredi/006-Parallelepipedo.java  
+  inflating: mirko.mannino/006-Parallelepipedo.java  
+  inflating: mirko.mannino/007-Pallet.java  
+  inflating: gd869878/003-Collo.java  
+  inflating: dario.manfredi/007-Pallet.java  
+  inflating: mirko.mannino/008-Collo.java  
+  inflating: mirko.mannino/009-Parallelepipedo.java  
+  inflating: mirko.mannino/010-Cilindrico.java  
+  inflating: alberto.bugini/010-CAP.java  
+  inflating: alberto.bugini/011-Cilindrico.java  
+  inflating: alberto.bugini/012-Collo.java  
+  inflating: alberto.bugini/013-Collo.java  
+  inflating: alberto.bugini/014-Indirizzo.java  
+  inflating: alberto.bugini/015-Indirizzo.java  
+  inflating: alberto.bugini/016-Pallet.java  
+  inflating: alberto.bugini/017-Parallelepipedo.java  
+  inflating: gd869878/004-Collo.java  
+  inflating: gd869878/005-Parallelepipedo.java  
+  inflating: gd869878/006-Cilindrico.java  
+  inflating: gd869878/007-Cilindrico.java  
+  inflating: marco.colussi1/001-Cilindrico.java  
+  inflating: marco.colussi1/002-CAP.java  
+  inflating: dimitri.ciraudo/001-CAP.java  
+  inflating: dimitri.ciraudo/002-Cilindrico.java  
+  inflating: dimitri.ciraudo/003-Cilindrico.java  
+  inflating: dimitri.ciraudo/004-Collo.java  
+  inflating: dimitri.ciraudo/005-Collo.java  
+  inflating: dimitri.ciraudo/006-Collo.java  
+  inflating: dimitri.ciraudo/007-Parallelepipedo.java  
+  inflating: dimitri.ciraudo/008-Parallelepipedo.java  
+  inflating: dimitri.ciraudo/009-Indirizzo.java  
+  inflating: dimitri.ciraudo/010-Indirizzo.java  
+  inflating: dimitri.ciraudo/011-Pallet.java  
+  inflating: mirko.mannino/011-CAP.java  
+  inflating: dario.manfredi/008-Cilindrico.java  
+  inflating: mirko.mannino/012-CAP.java  
+  inflating: mirko.mannino/013-CAP.java  
+  inflating: mirko.mannino/014-CAP.java  
+  inflating: gd869878/008-Pallet.java  
+  inflating: gd869878/009-Collo.java  
+  inflating: gd869878/010-Collo.java  
+  inflating: gd869878/011-Collo.java  
+  inflating: gd869878/012-Cilindrico.java  
+  inflating: gd869878/013-Parallelepipedo.java  
+  inflating: mirko.mannino/015-Pallet.java  
+  inflating: mirko.mannino/016-Pallet.java  
+  inflating: marco.colussi1/003-Indirizzo.java  
+  inflating: mirko.mannino/017-CAP.java  
+  inflating: mirko.mannino/018-Cilindrico.java  
+  inflating: mirko.mannino/019-Cilindrico.java  
+  inflating: mirko.mannino/020-Collo.java  
+  inflating: alberto.bugini/018-CAP.java  
+  inflating: alberto.bugini/019-Cilindrico.java  
+  inflating: alberto.bugini/020-Collo.java  
+  inflating: alberto.bugini/021-Indirizzo.java  
+  inflating: alberto.bugini/022-Pallet.java  
+  inflating: alberto.bugini/023-Parallelepipedo.java  
+  inflating: marco.colussi1/004-CAP.java  
+  inflating: marco.colussi1/005-Cilindrico.java  
+  inflating: marco.colussi1/006-Collo.java  
+  inflating: marco.colussi1/007-Indirizzo.java  
+  inflating: marco.colussi1/008-Pallet.java  
+  inflating: marco.colussi1/009-Parallelepipedo.java  
+  inflating: sabrina.patania/001-CAP.java  
+  inflating: daniele.deluis/001-CAP.java  
+  inflating: alberto.bugini/024-CAP.java  
+  inflating: sabrina.patania/002-Cilindrico.java  
+  inflating: daniele.deluis/002-Cilindrico.java  
+  inflating: alberto.bugini/025-Cilindrico.java  
+  inflating: sabrina.patania/003-Cilindrico.java  
+  inflating: alberto.bugini/026-Cilindrico.java  
+  inflating: alberto.bugini/027-Collo.java  
+  inflating: daniele.deluis/003-Collo.java  
+  inflating: alberto.bugini/028-Indirizzo.java  
+  inflating: sabrina.patania/004-Collo.java  
+  inflating: alberto.bugini/029-Pallet.java  
+  inflating: daniele.deluis/004-Indirizzo.java  
+  inflating: alberto.bugini/030-Parallelepipedo.java  
+  inflating: daniele.deluis/005-Pallet.java  
+  inflating: sabrina.patania/005-Indirizzo.java  
+  inflating: sabrina.patania/006-Indirizzo.java  
+  inflating: daniele.deluis/006-Parallelepipedo.java  
+  inflating: sabrina.patania/007-Pallet.java  
+  inflating: sabrina.patania/008-Parallelepipedo.java  
+  inflating: stefano.radaelli3/001-Cilindrico.java  
+  inflating: stefano.radaelli3/002-Pallet.java  
+  inflating: mirko.mannino/021-Parallelepipedo.java  
+  inflating: stefano.radaelli3/003-Parallelepipedo.java  
+  inflating: mirko.mannino/022-Cilindrico.java  
+  inflating: mirko.mannino/023-Cilindrico.java  
+  inflating: stefano.radaelli3/004-Collo.java  
+  inflating: luca.brunelli/001-Collo.java  
+  inflating: luca.brunelli/002-Collo.java  
+  inflating: luca.brunelli/003-Cilindrico.java  
+  inflating: luca.brunelli/004-Parallelepipedo.java  
+  inflating: gd869878/014-Cilindrico.java  
+  inflating: luca.brunelli/005-Indirizzo.java  
+  inflating: luca.brunelli/006-CAP.java  
+  inflating: marco.colussi1/010-CAP.java  
+  inflating: marco.colussi1/011-Cilindrico.java  
+  inflating: marco.colussi1/012-Collo.java  
+  inflating: marco.colussi1/013-Indirizzo.java  
+  inflating: marco.colussi1/014-Pallet.java  
+  inflating: marco.colussi1/015-Pallet.java  
+  inflating: marco.colussi1/016-Parallelepipedo.java  
+  inflating: dario.manfredi/009-CAP.java  
+  inflating: dario.manfredi/010-Cilindrico.java  
+  inflating: dario.manfredi/011-Collo.java  
+  inflating: dimitri.ciraudo/012-CAP.java  
+  inflating: dario.manfredi/012-Indirizzo.java  
+  inflating: dimitri.ciraudo/013-Cilindrico.java  
+  inflating: dimitri.ciraudo/014-Collo.java  
+  inflating: dario.manfredi/013-Pallet.java  
+  inflating: dimitri.ciraudo/015-Indirizzo.java  
+  inflating: dario.manfredi/014-Parallelepipedo.java  
+  inflating: dimitri.ciraudo/016-Pallet.java  
+  inflating: dimitri.ciraudo/017-Parallelepipedo.java  
+  inflating: mirko.mannino/024-Pallet.java  
+  inflating: nr871205/001-CAP.java   
+  inflating: nr871205/002-Cilindrico.java  
+  inflating: nr871205/003-Collo.java  
+  inflating: nr871205/004-Indirizzo.java  
+  inflating: nr871205/005-Pallet.java  
+  inflating: nr871205/006-Parallelepipedo.java  
+  inflating: gd869878/015-Cilindrico.java  
+  inflating: mirko.mannino/025-CAP.java  
+  inflating: mirko.mannino/026-Cilindrico.java  
+  inflating: mirko.mannino/027-Collo.java  
+  inflating: mirko.mannino/028-Indirizzo.java  
+  inflating: mirko.mannino/029-Pallet.java  
+  inflating: mirko.mannino/030-Parallelepipedo.java  
+  inflating: gd869878/016-Parallelepipedo.java  
+  inflating: gd869878/017-CAP.java   
+  inflating: dario.manfredi/015-CAP.java  
+  inflating: dario.manfredi/016-Cilindrico.java  
+  inflating: dario.manfredi/017-Collo.java  
+  inflating: dario.manfredi/018-Indirizzo.java  
+  inflating: dario.manfredi/019-Pallet.java  
+  inflating: dario.manfredi/020-Parallelepipedo.java  
+  inflating: dimitri.ciraudo/018-CAP.java  
+  inflating: dimitri.ciraudo/019-Cilindrico.java  
+  inflating: dimitri.ciraudo/020-Collo.java  
+  inflating: dimitri.ciraudo/021-Collo.java  
+  inflating: dimitri.ciraudo/022-Indirizzo.java  
+  inflating: dimitri.ciraudo/023-Pallet.java  
+  inflating: dimitri.ciraudo/024-Parallelepipedo.java  
+  inflating: mirko.mannino/031-Collo.java  
+  inflating: mirko.mannino/032-Collo.java  
+  inflating: renato.bottini/001-Collo.java  
+  inflating: renato.bottini/002-Collo.java  
+  inflating: renato.bottini/003-Cilindrico.java  
+  inflating: renato.bottini/004-Cilindrico.java  
+  inflating: renato.bottini/005-Parallelepipedo.java  
+  inflating: renato.bottini/006-Indirizzo.java  
+  inflating: renato.bottini/007-CAP.java  
+  inflating: renato.bottini/008-Pallet.java  
+  inflating: ma871282/001-CAP.java   
+  inflating: ma871282/002-Cilindrico.java  
+  inflating: ma871282/003-Parallelepipedo.java  
+  inflating: ma871282/004-Indirizzo.java  
+  inflating: ma871282/005-Collo.java  
+  inflating: fr871243/001-CAP.java   
+  inflating: ma871282/006-Pallet.java  
+  inflating: fr871243/002-Indirizzo.java  
+  inflating: fr871243/003-Collo.java  
+  inflating: fr871243/004-Cilindrico.java  
+  inflating: fr871243/005-Parallelepipedo.java  
+  inflating: mirko.mannino/033-Collo.java  
+  inflating: mirko.mannino/034-Collo.java  
+  inflating: mirko.mannino/035-Collo.java  
+  inflating: gd869878/018-Collo.java  
+  inflating: gd869878/019-Pallet.java  
+  inflating: luca.oropallo/001-CAP.java  
+  inflating: luca.oropallo/002-Cilindrico.java  
+  inflating: luca.oropallo/003-Collo.java  
+  inflating: gd869878/020-Pallet.java  
+  inflating: luca.oropallo/004-Indirizzo.java  
+  inflating: luca.oropallo/005-Pallet.java  
+  inflating: luca.oropallo/006-Parallelepipedo.java  
+  inflating: dimitri.ciraudo/025-CAP.java  
+  inflating: paolo.mastrangelo/001-CAP.java  
+  inflating: dimitri.ciraudo/026-Cilindrico.java  
+  inflating: dimitri.ciraudo/027-Collo.java  
+  inflating: paolo.mastrangelo/002-Cilindrico.java  
+  inflating: dimitri.ciraudo/028-Indirizzo.java  
+  inflating: paolo.mastrangelo/003-Collo.java  
+  inflating: dimitri.ciraudo/029-Pallet.java  
+  inflating: paolo.mastrangelo/004-Collo.java  
+  inflating: dimitri.ciraudo/030-Parallelepipedo.java  
+  inflating: paolo.mastrangelo/005-Indirizzo.java  
+  inflating: paolo.mastrangelo/006-Pallet.java  
+  inflating: fr871243/006-Pallet.java  
+  inflating: paolo.mastrangelo/007-Pallet.java  
+  inflating: paolo.mastrangelo/008-Parallelepipedo.java  
+  inflating: cg875670/001-Cilindrico.java  
+  inflating: cg875670/002-Pallet.java  
+  inflating: cg875670/003-Pallet.java  
+  inflating: cg875670/004-Parallelepipedo.java  
+  inflating: cg875670/005-Parallelepipedo.java  
+  inflating: cg875670/006-Collo.java  
+  inflating: cg875670/007-Indirizzo.java  
+  inflating: cg875670/008-CAP.java   
+  inflating: luca.brunelli/007-Collo.java  
+  inflating: luca.brunelli/008-Cilindrico.java  
+  inflating: luca.brunelli/009-Parallelepipedo.java  
+  inflating: luca.brunelli/010-Indirizzo.java  
+  inflating: luca.brunelli/011-CAP.java  
+  inflating: gd869878/021-Collo.java  
+  inflating: dimitri.ciraudo/031-CAP.java  
+  inflating: dimitri.ciraudo/032-Cilindrico.java  
+  inflating: dimitri.ciraudo/033-Collo.java  
+  inflating: dimitri.ciraudo/034-Indirizzo.java  
+  inflating: dimitri.ciraudo/035-Pallet.java  
+  inflating: dimitri.ciraudo/036-Parallelepipedo.java  
+  inflating: dimitri.ciraudo/037-Collo.java  
+  inflating: mb871440/001-CAP.java   
+  inflating: mb871440/002-Cilindrico.java  
+  inflating: mb871440/003-Collo.java  
+  inflating: gd869878/022-Collo.java  
+  inflating: mb871440/004-Indirizzo.java  
+  inflating: gd869878/023-Parallelepipedo.java  
+  inflating: mb871440/005-Pallet.java  
+  inflating: mb871440/006-Parallelepipedo.java  
+  inflating: gd869878/024-Cilindrico.java  
+  inflating: gd869878/025-Indirizzo.java  
+  inflating: gd869878/026-CAP.java   
+  inflating: samuele.garavaglia1/001-CAP.java  
+  inflating: samuele.garavaglia1/002-Cilindrico.java  
+  inflating: samuele.garavaglia1/003-Collo.java  
+  inflating: paolo.mastrangelo/009-CAP.java  
+  inflating: samuele.garavaglia1/004-Indirizzo.java  
+  inflating: gd869878/027-Pallet.java  
+  inflating: paolo.mastrangelo/010-Cilindrico.java  
+  inflating: samuele.garavaglia1/005-Pallet.java  
+  inflating: paolo.mastrangelo/011-Collo.java  
+  inflating: samuele.garavaglia1/006-Parallelepipedo.java  
+  inflating: paolo.mastrangelo/012-Indirizzo.java  
+  inflating: paolo.mastrangelo/013-Indirizzo.java  
+  inflating: paolo.mastrangelo/014-Pallet.java  
+  inflating: paolo.mastrangelo/015-Parallelepipedo.java  
+  inflating: luca.oropallo/007-CAP.java  
+  inflating: luca.oropallo/008-Cilindrico.java  
+  inflating: luca.oropallo/009-Collo.java  
+  inflating: luca.oropallo/010-Indirizzo.java  
+  inflating: luca.oropallo/011-Pallet.java  
+  inflating: me872678/001-Cilindrico.java  
+  inflating: luca.oropallo/012-Parallelepipedo.java  
+  inflating: me872678/002-CAP.java   
+  inflating: me872678/003-Cilindrico.java  
+  inflating: luca.oropallo/013-Test_CAP.java  
+  inflating: me872678/004-Pallet.java  
+  inflating: me872678/005-Parallelepipedo.java  
+  inflating: renato.bottini/009-Collo.java  
+  inflating: renato.bottini/010-Cilindrico.java  
+  inflating: dimitri.ciraudo/038-CAP.java  
+  inflating: dimitri.ciraudo/039-Cilindrico.java  
+  inflating: dimitri.ciraudo/040-Cilindrico.java  
+  inflating: renato.bottini/011-Parallelepipedo.java  
+  inflating: dimitri.ciraudo/041-Collo.java  
+  inflating: dimitri.ciraudo/042-Indirizzo.java  
+  inflating: renato.bottini/012-Indirizzo.java  
+  inflating: dimitri.ciraudo/043-Pallet.java  
+  inflating: dimitri.ciraudo/044-Parallelepipedo.java  
+  inflating: renato.bottini/013-CAP.java  
+  inflating: renato.bottini/014-Pallet.java  
+  inflating: stefano.radaelli3/005-CAP.java  
+  inflating: samuele.garavaglia1/007-Indirizzo.java  
+  inflating: pietro.andreoli1/001-CAP.java  
+  inflating: pietro.andreoli1/002-Cilindrico.java  
+  inflating: pietro.andreoli1/003-Collo.java  
+  inflating: pietro.andreoli1/004-Indirizzo.java  
+  inflating: pietro.andreoli1/005-Pallet.java  
+  inflating: pietro.andreoli1/006-Parallelepipedo.java  
+  inflating: luca.oropallo/014-Cilindrico.java  
+  inflating: fr871243/007-Pallet.java  
+  inflating: samuele.garavaglia1/008-CAP.java  
+  inflating: samuele.garavaglia1/009-Cilindrico.java  
+  inflating: samuele.garavaglia1/010-Collo.java  
+  inflating: samuele.garavaglia1/011-Indirizzo.java  
+  inflating: samuele.garavaglia1/012-Pallet.java  
+  inflating: samuele.garavaglia1/013-Parallelepipedo.java  
+  inflating: daniele.croci2/001-CAP.java  
+  inflating: daniele.croci2/002-Cilindrico.java  
+  inflating: daniele.croci2/003-Collo.java  
+  inflating: daniele.croci2/004-Indirizzo.java  
+  inflating: daniele.croci2/005-Pallet.java  
+  inflating: daniele.croci2/006-Parallelepipedo.java  
+  inflating: daniele.croci2/007-Cilindrico.java  
+  inflating: stefano.radaelli3/006-CAP.java  
+  inflating: stefano.radaelli3/007-Indirizzo.java  
+  inflating: paolo.mastrangelo/016-Parallelepipedo.java  
+  inflating: paolo.mastrangelo/017-Indirizzo.java  
+  inflating: ma871282/007-Collo.java  
+  inflating: ma871282/008-CAP.java   
+  inflating: ma871282/009-Cilindrico.java  
+  inflating: ma871282/010-Indirizzo.java  
+  inflating: ma871282/011-Parallelepipedo.java  
+  inflating: ma871282/012-Pallet.java  
+  inflating: samuele.garavaglia1/014-Cilindrico.java  
+  inflating: paolo.mastrangelo/018-Indirizzo.java  
+  inflating: paolo.mastrangelo/019-Parallelepipedo.java  
+  inflating: luca.oropallo/015-Test_Pallet.java  
+  inflating: marco.zuccolo1/001-CAP.java  
+  inflating: marco.zuccolo1/002-Cilindrico.java  
+  inflating: marco.zuccolo1/003-Collo.java  
+  inflating: marco.zuccolo1/004-Indirizzo.java  
+  inflating: marco.zuccolo1/005-Indirizzo.java  
+  inflating: ss870232/001-CAP.java   
+  inflating: marco.zuccolo1/006-Pallet.java  
+  inflating: marco.zuccolo1/007-Parallelepipedo.java  
+  inflating: ss870232/002-Cilindrico.java  
+  inflating: marco.zuccolo1/008-Parallelepipedo.java  
+  inflating: ss870232/003-Collo.java  
+  inflating: ss870232/004-Indirizzo.java  
+  inflating: ss870232/005-Pallet.java  
+  inflating: ss870232/006-Parallelepipedo.java  
+  inflating: marco.denicolo/001-Collo.java  
+  inflating: samuele.garavaglia1/015-Cilindrico.java  
+  inflating: alessandro.aime/001-CAP.java  
+  inflating: marco.denicolo/002-Cilindrico.java  
+  inflating: me872678/006-Indirizzo.java  
+  inflating: alessandro.aime/002-Cilindrico.java  
+  inflating: marco.denicolo/003-Cilindrico.java  
+  inflating: alessandro.aime/003-Collo.java  
+  inflating: alessandro.aime/004-Indirizzo.java  
+  inflating: pietro.andreoli1/007-Pallet.java  
+  inflating: alessandro.aime/005-Pallet.java  
+  inflating: marco.denicolo/004-Parallelepipedo.java  
+  inflating: alessandro.aime/006-Parallelepipedo.java  
+  inflating: federico.pettinicchio/001-CAP.java  
+  inflating: marco.denicolo/005-Indirizzo.java  
+  inflating: federico.pettinicchio/002-Indirizzo.java  
+  inflating: marco.denicolo/006-CAP.java  
+  inflating: federico.pettinicchio/003-Collo.java  
+  inflating: ss870232/007-CAP.java   
+  inflating: ss870232/008-Cilindrico.java  
+  inflating: marco.denicolo/007-Pallet.java  
+  inflating: federico.pettinicchio/004-Cilindrico.java  
+  inflating: ss870232/009-Collo.java  
+  inflating: ss870232/010-Indirizzo.java  
+  inflating: federico.pettinicchio/005-Parallelepipedo.java  
+  inflating: federico.pettinicchio/006-Pallet.java  
+  inflating: ss870232/011-Pallet.java  
+  inflating: ss870232/012-Parallelepipedo.java  
+  inflating: fc873625/001-CAP.java   
+  inflating: fc873625/002-Cilindrico.java  
+  inflating: samuele.garavaglia1/016-CAP.java  
+  inflating: samuele.garavaglia1/017-Cilindrico.java  
+  inflating: fc873625/003-Collo.java  
+  inflating: samuele.garavaglia1/018-Collo.java  
+  inflating: samuele.garavaglia1/019-Indirizzo.java  
+  inflating: fc873625/004-Indirizzo.java  
+  inflating: samuele.garavaglia1/020-Pallet.java  
+  inflating: samuele.garavaglia1/021-Parallelepipedo.java  
+  inflating: fc873625/005-Pallet.java  
+  inflating: me872678/007-Collo.java  
+  inflating: luca.brunelli/012-Collo.java  
+  inflating: fc873625/006-Parallelepipedo.java  
+  inflating: luca.brunelli/013-Cilindrico.java  
+  inflating: luca.brunelli/014-Parallelepipedo.java  
+  inflating: luca.brunelli/015-Indirizzo.java  
+  inflating: luca.brunelli/016-CAP.java  
+  inflating: fr871243/008-Indirizzo.java  
+  inflating: luca.brunelli/017-Pallet.java  
+  inflating: luca.brunelli/018-Pallet.java  
+  inflating: gabriele.quagliarella/001-Collo.java  
+  inflating: gabriele.quagliarella/002-Cilindrico.java  
+  inflating: gabriele.quagliarella/003-Parallelepipedo.java  
+  inflating: gabriele.quagliarella/004-Indirizzo.java  
+  inflating: gabriele.quagliarella/005-CAP.java  
+  inflating: gabriele.quagliarella/006-Pallet.java  
+  inflating: samuele.garavaglia1/022-CAP.java  
+  inflating: samuele.garavaglia1/023-Cilindrico.java  
+  inflating: samuele.garavaglia1/024-Collo.java  
+  inflating: ma871282/013-CAP.java   
+  inflating: samuele.garavaglia1/025-Indirizzo.java  
+  inflating: ma871282/014-Indirizzo.java  
+  inflating: samuele.garavaglia1/026-Pallet.java  
+  inflating: samuele.garavaglia1/027-Parallelepipedo.java  
+  inflating: ma871282/015-Parallelepipedo.java  
+  inflating: ma871282/016-Pallet.java  
+  inflating: ma871282/017-Collo.java  
+  inflating: ma871282/018-Cilindrico.java  
+  inflating: gabriele.quagliarella/007-Pallet.java  
+  inflating: fr871243/009-Indirizzo.java  
+  inflating: fr871243/010-Collo.java  
+  inflating: pietro.andreoli1/008-Indirizzo.java  
+  inflating: andreamarkus.gentile/001-CAP.java  
+  inflating: andreamarkus.gentile/002-CAP.java  
+  inflating: andreamarkus.gentile/003-Collo.java  
+  inflating: andreamarkus.gentile/004-Indirizzo.java  
+  inflating: andreamarkus.gentile/005-Pallet.java  
+  inflating: andreamarkus.gentile/006-Parallelepipedo.java  
+  inflating: renato.bottini/015-Collo.java  
+  inflating: renato.bottini/016-Collo.java  
+  inflating: paolo.mastrangelo/020-Parallelepipedo.java  
+  inflating: renato.bottini/017-Cilindrico.java  
+  inflating: paolo.mastrangelo/021-Parallelepipedo.java  
+  inflating: paolo.mastrangelo/022-CAP.java  
+  inflating: andreamarkus.gentile/007-Cilindrico.java  
+  inflating: renato.bottini/018-Parallelepipedo.java  
+  inflating: ss870232/013-Cilindrico.java  
+  inflating: paolo.mastrangelo/023-Cilindrico.java  
+  inflating: ss870232/014-Parallelepipedo.java  
+  inflating: paolo.mastrangelo/024-Collo.java  
+  inflating: paolo.mastrangelo/025-Collo.java  
+  inflating: paolo.mastrangelo/026-Indirizzo.java  
+  inflating: paolo.mastrangelo/027-Pallet.java  
+  inflating: paolo.mastrangelo/028-Pallet.java  
+  inflating: paolo.mastrangelo/029-Parallelepipedo.java  
+  inflating: paolo.mastrangelo/030-Parallelepipedo.java  
+  inflating: renato.bottini/019-Indirizzo.java  
+  inflating: renato.bottini/020-CAP.java  
+  inflating: renato.bottini/021-Pallet.java  
+  inflating: ss870232/015-Pallet.java  
+  inflating: marco.denicolo/008-Pallet.java  
+  inflating: alessandro.aime/007-Collo.java  
+  inflating: ma871282/019-CAP.java   
+  inflating: gs871785/001-CAP.java   
+  inflating: gs871785/002-CAP.java   
+  inflating: gs871785/003-Cilindrico.java  
+  inflating: ma871282/020-Indirizzo.java  
+  inflating: ma871282/021-Parallelepipedo.java  
+  inflating: ma871282/022-Collo.java  
+  inflating: gs871785/004-Collo.java  
+  inflating: ma871282/023-Cilindrico.java  
+  inflating: gs871785/005-Indirizzo.java  
+  inflating: gs871785/006-Pallet.java  
+  inflating: ma871282/024-Pallet.java  
+  inflating: paolo.mastrangelo/031-CAP.java  
+  inflating: gs871785/007-Parallelepipedo.java  
+  inflating: paolo.mastrangelo/032-Cilindrico.java  
+  inflating: paolo.mastrangelo/033-Cilindrico.java  
+  inflating: paolo.mastrangelo/034-Collo.java  
+  inflating: paolo.mastrangelo/035-Indirizzo.java  
+  inflating: paolo.mastrangelo/036-Indirizzo.java  
+  inflating: paolo.mastrangelo/037-Pallet.java  
+  inflating: paolo.mastrangelo/038-Parallelepipedo.java  
+  inflating: ma871282/025-CAP.java   
+  inflating: gs871785/008-Cilindrico.java  
+  inflating: ma871282/026-Indirizzo.java  
+  inflating: ma871282/027-Parallelepipedo.java  
+  inflating: ma871282/028-Collo.java  
+  inflating: ma871282/029-Cilindrico.java  
+  inflating: ma871282/030-Pallet.java  
+  inflating: gs871785/009-Pallet.java  
+  inflating: gs871785/010-Pallet.java  
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link
+ls: cannot access *txt: No such file or directory
+ls: cannot access *csv: No such file or directory
+Creati test link

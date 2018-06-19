@@ -1,0 +1,407 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{verbatim}
+%\usepackage[italian]{babel}
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm]{geometry}
+%\usepackage[a4paper,left=1.9cm,right=1.9cm,top=1.5cm]{geometry}
+%\usepackage[compact]{titlesec}
+% \titlespacing{\section}{0pt}{*1}{*1}
+% \titlespacing{\subsection}{10pt}{*1}{*1}
+% \titlespacing{\subsubsection}{10pt}{*1}{*1}
+%\usepackage{mdwlist}
+%\setlength{\columnsep}{1.38cm}
+\setlength\parindent{0pt}
+%\setlength\bibsep{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\parsep}{0pt}
+%\usepackage[italian]{babel}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{paralist}
+\usepackage{graphicx}
+\usepackage{paralist}
+
+% \topmargin=-2.7cm
+% \oddsidemargin=-1cm
+% \evensidemargin=-1cm
+% \textwidth=18cm
+%\textheight=26.7cm
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Laboratorio di Programmazione}
+% \\
+% Edizione 1 - Turni A, B, C}
+
+\date{\textit{ESAME del 25 Novembre 2016}}
+%\textbf{BOZZA}}
+%\makeindex
+
+%%%%%%%%%%%%%%%%%%
+\begin{document}
+%\pagestyle{empty}
+%\twocolumn[\begin{center}\textbf{LabProg 2012-2013 - TESTO ESAME\\
+%Andrea Trentini - D.I. - UniMi\\
+%05 febbraio 2013} \end{center} \vspace{.5cm}]
+\maketitle
+
+\tableofcontents
+%\hrule
+
+\hrulefill
+
+\section*{Avvertenze}
+
+\begin{compactitem}
+\item 
+Nello svolgimento dell'elaborato è possibile
+usare qualunque classe delle librerie standard di Java.
+
+\item Non è invece
+ammesso l'uso delle classi del package {\tt prog} allegato al libro di
+testo del Prof.~Pighizzini e impiegato nella prima parte del corso.
+
+\item Si consiglia CALDAMENTE l'utilizzo dello script ``checker.sh'' per 
+compilare ed effettuare una prima valutazione (NON esaustiva!) del proprio elaborato.
+Si consiglia anche di leggere il sorgente dei \texttt{Test\_*.java} per 
+capire cosa devono offrire le classi da sviluppare.
+
+\item Ricordarsi, quando si programma: \emph{Repetita NON iuvant} o DRY (\emph{Don't Repeat Yourself}).
+
+\item Per la procedura di \textbf{consegna} si veda in fondo al documento.
+
+\end{compactitem}
+
+%%%%%%%%%%%%%%%%%%
+\newpage
+\hrulefill
+\section{ESERCIZIO FILTRO}
+
+
+\textbf{===$>>>$ INIZIARE PRIMA CON QUESTO,
+se non si è in grado di portare a termine questo esercizio...
+NON PROSEGUIRE!!!
+(la correzione del resto dell'elaborato è subordinata alla correttezza di questo primo esercizio)}
+\medskip
+
+La successione di Fibonacci $f_1, f_2, f_3 , . . . , f_n , . . .$ è una
+successione di numeri naturali così definita.
+\begin{compactitem}
+\item $f_1 = 1$.
+\item $f_2 = 1$.
+\item Per ogni $n>=3, f_n = f_{n-1} + f_{n-2}$
+
+\end{compactitem}
+
+Ecco i primi termini della successione:
+$1, 1, 2, 3, 5, 8, 13, 21, . . .$
+
+Scrivete un programma che visualizzi una rappresentazione ``grafica''
+della magnitudine dei primi $n$ termini della successione di Fibonacci.
+Il programma è costituito da una sola classe di nome \textit{Fibonacci},
+contenente il metodo \textit{main}, assieme eventualmente
+a dei metodi ausiliari statici (a discrezione).
+Il programma legge il numero intero $n$ dalla lista degli argomenti del programma.
+Se la condizione $n>=1$ non è soddisfatta, il programma termina.
+Poi, il programma visualizza $n$ righe, ciascuna costituita esclusivamente da asterischi consecutivi. La riga i-esima dovrà contenere esattamente $f_i$ asterischi,
+per ogni $i = 1, . . . , n$.
+Ciò fatto, il programma termina.
+Ad esempio il comando \texttt{java Fibonacci 4} deve generare il seguente output:
+\begin{verbatim}
+*
+*
+**
+***
+\end{verbatim} 
+E null'altro!
+
+
+\newpage
+
+
+
+%%%%%%%%%%%%%%%%%%
+\hrulefill
+\section{Tema d'esame}
+
+Lo scopo dell'esercizio è realizzare un modello semplificato per la gestione di 
+strade a pedaggio e non. Quindi avremo una gerarchia di strade (Strada, Autostrada)
+e una gerarchia di veicoli (Veicolo, Auto, Camion) e le classi dovranno esporre metodi per il calcolo del 
+pedaggio, della velocità media, etc.
+
+Le \textbf{classi} da realizzare sono le seguenti (dettagli nelle sezioni successive):
+\medskip
+
+\begin{compactenum}
+\item \texttt{Strada}: strada generica, non prevede pedaggio
+%\item \texttt{StradaPedaggio}: generica strada a pedaggio
+
+\item \texttt{Autostrada}: sottoclasse di Strada, introduce il concetto 
+di ``veicolo ammesso al transito'' (deve avere una certa potenza) e di pedaggio
+
+\item \texttt{Biglietto}: biglietto di ingresso, tiene traccia dell'orario di 
+ingresso
+
+\item \texttt{Veicolo}: veicolo generico, classe astratta
+
+\item \texttt{Auto}: sottoclasse di Veicolo
+
+\item \texttt{Camion}: sottoclasse di Veicolo
+
+% \item \texttt{Moto}: sottoclasse di Veicolo
+
+% \item \texttt{MultaException}: eccezione che rappresenta l'evento di 
+% superamento del limite di velocità
+
+\item \texttt{Main}: programma principale
+
+\end{compactenum}
+
+%%%%%%%%%%%%%%%%%%
+\subsection{Specifica delle classi}
+
+Le classi (\textbf{pubbliche}!) dovranno esporre almeno i metodi e costruttori \textbf{pubblici} specificati, più eventuali altri metodi e costruttori %\textit{privati}, 
+se ritenuti opportuni.
+%in alcuni casi le definizioni dei metodi sono incomplete
+%(vanno aggiunti i tipi mancanti).
+Gli attributi (campi) delle classi devono essere \textbf{privati}.
+per leggere e modificarne i valori, 
+creare opportunamente, e solo dove necessario, i metodi di accesso ({\tt set} e 
+{\tt get}).
+Se si usano classi che utilizzano tipi generici, si suggerisce  di utilizzarne 
+le versioni opportunamente istanziate (es. \texttt{ArrayList<String>} invece di
+\texttt{ArrayList}).
+Ogni classe deve avere il metodo {\tt 
+toString} che rappresenti lo stato delle istanze. 
+
+% Alcuni controlli di coerenza vengono suggeriti nel testo, potrebbero
+% essercene altri a discrezione. 
+% Si consiglia di posporre
+% l'implementazione dei controlli di coerenza, come ultima operazione,
+% dopo aver realizzato un sistema funzionante.
+
+%%%%%%%%%%%%%%%%%%
+\subsubsection{public class Strada}
+
+Deve definire gli attributi: \texttt{int limite (Km/h); float lunghezza 
+(Km)}.
+
+Deve definire almeno un costruttore che permetta di impostare gli attributi.
+
+E i seguenti metodi (oltre ai get per gli attributi, NON implementare i set, 
+basta il costruttore):
+
+\begin{compactitem}
+
+\item\texttt{public Strada(float lunghezza, int limite)} \textit{per avere l'ordine dei parametri}
+
+
+\item\texttt{public float orePercorrenzaVelocitaCodice()} restituisce quante 
+ore ci vogliono a percorrere tutta la lunghezza della strada andando alla 
+velocità massima possibile (limite di velocità). Nota: il float restituito rappresenta
+ore e frazioni di ore, ad esempio 1.20 rappresenta un'ora e 12 minuti.
+
+\item\texttt{public float velocitaMediaDatoTempoPercorrenzaInSec(float 
+percorrenza)} restituisce la velocità media in Km/h tenuta, dato un tempo di percorrenza 
+effettivo espresso in secondi.
+
+\item\texttt{public boolean superatoLimiteDatoTempoPercorrenzaInSec(float 
+percorrenza)} restituisce \textit{true} se, dato il tempo di percorrenza (in secondi), si può 
+supporre che il limite di velocità sia stato superato.
+
+\end{compactitem}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%
+\subsubsection{public class Autostrada}
+
+Sottoclasse di Strada, aggiunge la gestione del pedaggio,
+la gestione dell'accesso (accedono 
+solo i veicoli sopra una certa potenza) e la gestione degli ingressi (tiene 
+traccia di chi è dentro, calcola se sono stati superati i limiti, etc.).
+
+Deve definire gli attributi: \texttt{float tariffaBase (euro/Km)},
+ \texttt{float 
+potenzaMinimaPerAccedere (kW)} e un container (a scelta) per tenere traccia dei veicoli 
+entrati.
+
+Deve definire almeno un costruttore che permetta di impostare gli attributi.
+
+E i seguenti metodi (oltre ai get per gli attributi, NON implementare i set, 
+basta il costruttore):
+
+\begin{compactitem}
+
+\item\texttt{public Autostrada(int lunghezza, int limite,\\
+float tariffaBase, float potenzaMinimaPerAccedere)} \textit{per avere l'ordine dei parametri}
+
+
+\item \texttt{public float pedaggio(Veicolo v)} accetta solo veicoli con potenza superiore a potenzaMinima (se il veicolo non ha sufficiente potenza lancia eccezione) e 
+calcola il pedaggio (in euro) in funzione di:\\
+- tariffa base\\
+- lunghezza della strada\\
+- numero di assi del veicolo: fino a 3 assi si usa la tariffa base, oltre i 3 assi si usa 1.5*(tariffa base)
+%, le moto pagano la metà
+
+\item \texttt{public Biglietto ingresso(Veicolo v)} se il veicolo è ammesso
+(controllo su potenza), lo lascia entrare ed emette un biglietto (vedi classe relativa) per il 
+veicolo stesso; lancia un'eccezione se il veicolo non è ammesso.
+Nota: java.lang.System.currentTimeMillis() permette di avere l'ora esatta espressa 
+in millisecondi.
+
+\item \texttt{public float uscita(Veicolo v)} se il veicolo non è presente tra 
+i veicoli entrati, lancia un'eccezione; se il tempo di percorrenza (calcolato in base
+all'ora attuale e all'ora di ingresso) è inferiore a 
+quello ``legale'' (rispettando il limite di velocità), lancia un'eccezione,
+altrimenti fa uscire il veicolo (elimina dal container), calcola il pedaggio e lo restituisce.
+
+
+\item \texttt{public int quantiVeicoli()} restituisce il numero di veicoli 
+attualmente in viaggio.
+
+\item \texttt{public float potenzaMedia()} calcola e restituisce la potenza 
+media dei veicoli attualmente in viaggio.
+
+%\item \texttt{public float quanteMoto()} calcola e restituisce il numero di moto presenti.
+
+
+\end{compactitem} 
+
+
+
+%%%%%%%%%%%%%%%%%%
+\subsubsection{public abstract class Veicolo}
+
+Deve definire gli attributi:     \texttt{String targa;  int assi (numero di); 
+float potenza (in kW)}. Inoltre deve avere un reference a Biglietto (vedi classe 
+relativa) con i metodi set e get relativi.
+
+\texttt{public Veicolo(String targa, int assi, float potenza)} \textit{per ordine parametri}
+
+
+
+%%%%%%%%%%%%%%%%%%
+\subsubsection{public class Auto}
+
+Sottoclasse di Veicolo, non ha attributi aggiuntivi, implementa un costruttore 
+che fissa il numero di assi a 2.
+
+\texttt{public Auto(String targa, float potenza)} \textit{per ordine parametri}
+
+
+% %%%%%%%%%%%%%%%%%%
+% \subsection*{public class Moto}
+% 
+% Sottoclasse di Veicolo, non ha attributi aggiuntivi, implementa un costruttore 
+% che fissa il numero di assi a 2 e la lunghezza a 3 metri.
+
+%%%%%%%%%%%%%%%%%%
+\subsubsection{public class Camion}
+
+
+Sottoclasse di Veicolo, non ha attributi aggiuntivi, implementa un costruttore 
+che fissa il numero di assi a 5 e un costruttore con numero di assi parametrico.
+
+\texttt{public Camion(String targa, float potenza)\\
+public Camion(String targa, float potenza, int assi)} \textit{per ordine parametri}
+
+
+%%%%%%%%%%%%%%%%%%
+\subsubsection{public class Biglietto}
+
+Deve definire un attributo  \texttt{long timestamp} (per registrare l'orario di ingresso) e 
+avere un reference a Veicolo, coi relativi set e get.
+
+\textbf{Suggerimento:} per il timestamp usare \texttt{java.lang.System.currentTimeMillis()},
+che restituisce l'ora corrente espressa in millisecondi.
+
+%%%%%%%%%%%%%%%%%%
+\subsubsection{public class Main}
+
+
+Creare un main che realizzi i seguenti:
+
+\begin{compactenum}
+\item istanzi una Autostrada (attributi: 50 Km lunghezza, 100 Km/h 
+limite vel., 0.20 euro/Km pedaggio, 50 kW potenza minima per accedere)
+\item istanzi una serie di veicoli prendendo i dati da un file di testo (vedi 
+sotto)
+\item li immetta uno a uno nell'autostrada
+\item stampi la situazione dell'autostrada dopo ogni ingresso
+\item calcoli la potenza media dei veicoli che sono effettivamente entrati
+\item li faccia uscire uno a uno dall'autostrada, stampando la situazione
+dopo ogni uscita
+\end{compactenum}
+
+\textbf{Formato del file di testo:}  TipoVeicolo;Targa;Potenza
+
+Utilizzare il seguente contenuto:
+
+\begin{quote}
+Camion;MI2121212;600\\
+Auto;PV77777;60\\
+Camion;CO98989;900\\
+Auto;MI656565;200\\
+Auto;MI43432;40\\
+Camion;MI2323232;600\\
+%Moto;MI373738;70
+\end{quote}
+
+(potete usare il file \texttt{autostrada.txt} allegato al tema)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hrulefill
+\section{Raccomandazioni}
+
+Affinché l'elaborato sia valutato, è richiesto che sia le classi sviluppate che i test risultino
+\textit{compilabili}. A tal fine i metodi/costruttori che non saranno sviluppati dovranno comuque avere
+una implementazione fittizia come la seguente:
+\begin{verbatim}
+public void nomeDelMetodo () {
+   throw new UnsupportedOperationException();
+}
+\end{verbatim}
+Si suggerisce quindi di dotare da subito le classi di tutti i metodi richiesti, 
+implementandoli in modo fittizio, e poi di sostituire man mano le 
+implementazioni fittizie con implementazioni che rispettino le specifiche.
+
+\hrulefill
+
+%%%%%%%%%%%%%%%%%%
+\section{Consegna}
+%\marginpar{QUESTA SEZIONE E' PRESENTE PER COMPLETEZZA}
+Si ricorda che le classi devono essere tutte \textit{public} e che vanno 
+consegnati tutti (e soli) i file \textit{.java} prodotti.
+NON vanno consegnati i \textit{.class}.
+NON vanno consegnati i file relativi al meccanismo di autovalutazione 
+(\textit{Test\_*.java, AbstractTest.java, *.sh}).
+Per la consegna, eseguite l'upload dei SINGOLI file sorgente (NON un file archivio!) dalla pagina web: http://upload.di.unimi.it
+nella sessione del vostro docente.
+
+\hrulefill
+
+\begin{center}*** ATTENZIONE!!! ***\end{center}
+
+NON VERRANNO VALUTATI GLI ELABORATI CON ERRORI DI COMPILAZIONE O 
+LE CONSEGNE CHE NON RISPETTANO LE SPECIFICHE (ad esempio consegnare un 
+archivio zippato è sbagliato, come anche consegnare ad un docente diverso dal 
+proprio assegnato).
+
+UN SINGOLO ERRORE DI COMPILAZIONE O DI PROCEDURA INVALIDA 
+\textbf{TUTTO} 
+L'ELABORATO.
+\medskip
+
+\hrulefill
+
+{\bf Per ritirarsi}
+fare l'upload di un file vuoto di nome  \texttt{ritirato.txt}. Se avete caricato 
+dei file nella sessione del docente sbagliato, caricate lì un file vuoto di 
+nome  \texttt{errataConsegna.txt} e caricate poi i file nella sessione giusta. 
+
+\hrulefill
+
+%%%%%%%%%%%%%%
+\end{document}
